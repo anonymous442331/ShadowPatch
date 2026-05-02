@@ -1,0 +1,6 @@
+Defense,ASR after (%),ASR Drop (pp),Det. Rate (%),FP Rate (%),F1 (%)
+D1: Adv. Training,1.5,29.8,95.2,20.6,88.2
+D2: Ensemble,1.0,30.3,96.8,24.6,87.5
+D3: Rand. Smoothing,0.5,30.8,98.4,23.0,88.9
+D4: Input Norm.,14.9,16.4,52.4,5.6,66.3
+D5: PDG-Taint (ours),14.7,16.7,53.2,29.4,58.3

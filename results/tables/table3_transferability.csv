@@ -1,0 +1,5 @@
+Source\Target,linevul,reveal,ivdetect,graphcodebert
+linevul,31.3,25.4,18.3,15.9
+reveal,20.0,8.5,46.7,10.0
+ivdetect,38.1,57.1,5.7,19.0
+graphcodebert,52.4,17.5,6.3,15.3

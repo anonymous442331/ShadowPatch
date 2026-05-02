@@ -1,0 +1,8 @@
+System,ASR (%),Avg Queries,Prob Shift,SMT-OK (%),Expl-OK (%),Top Transforms
+ShadowPatch (linevul),27.3,92.1,0.167,99.1,0.0,"T10, T13, T17"
+ShadowPatch (reveal),3.3,46.0,0.011,100.0,0.0,"T2, T14, T1"
+ShadowPatch (ivdetect),2.6,63.0,0.006,100.0,0.0,"T10, T1, T17"
+ShadowPatch (graphcodebert),13.0,136.2,0.084,100.0,0.0,"T13, T10, T5"
+Dead-code only (T13),5.2,1.0,—,—,—,—
+Rename only (T14),0.7,1.0,—,—,—,—
+Random (no GA),20.1,124.8,—,—,—,—

@@ -1,0 +1,7765 @@
+[
+  {
+    "success": false,
+    "original_prob": 0.9999443292617798,
+    "adversarial_prob": 0.9999371767044067,
+    "prob_shift": 7.152557373046875e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-190",
+    "source": "sard",
+    "time_sec": 208.53366374969482
+  },
+  {
+    "success": false,
+    "original_prob": 0.979349672794342,
+    "adversarial_prob": 0.9678860902786255,
+    "prob_shift": 0.011463582515716553,
+    "queries_used": 501,
+    "transforms": [
+      "T13",
+      "T6",
+      "T1",
+      "T15"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 213.7713119983673
+  },
+  {
+    "success": false,
+    "original_prob": 0.9996242523193359,
+    "adversarial_prob": 0.998671293258667,
+    "prob_shift": 0.0009529590606689453,
+    "queries_used": 501,
+    "transforms": [
+      "T16",
+      "T10",
+      "T6",
+      "T14",
+      "T10",
+      "T11",
+      "T18"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 215.77220845222473
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998633861541748,
+    "adversarial_prob": 0.9998489618301392,
+    "prob_shift": 1.4424324035644531e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T17",
+      "T2"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "CWE-190",
+    "source": "bigvul",
+    "time_sec": 216.2351975440979
+  },
+  {
+    "success": true,
+    "original_prob": 0.999862790107727,
+    "adversarial_prob": 0.22021961212158203,
+    "prob_shift": 0.779643177986145,
+    "queries_used": 241,
+    "transforms": [
+      "T1",
+      "T13",
+      "T13",
+      "T7",
+      "T9",
+      "T14",
+      "T11",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-125",
+    "source": "bigvul",
+    "time_sec": 104.6235773563385
+  },
+  {
+    "success": false,
+    "original_prob": 0.95644611120224,
+    "adversarial_prob": 0.95644611120224,
+    "prob_shift": 0.0,
+    "queries_used": 501,
+    "transforms": [
+      "T2"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 217.04606771469116
+  },
+  {
+    "success": true,
+    "original_prob": 0.5949010252952576,
+    "adversarial_prob": 0.49587002396583557,
+    "prob_shift": 0.099031001329422,
+    "queries_used": 21,
+    "transforms": [
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 9.199649095535278
+  },
+  {
+    "success": true,
+    "original_prob": 0.7318516373634338,
+    "adversarial_prob": 0.34017619490623474,
+    "prob_shift": 0.3916754424571991,
+    "queries_used": 21,
+    "transforms": [
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 9.416458368301392
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998595714569092,
+    "adversarial_prob": 0.9998418092727661,
+    "prob_shift": 1.7762184143066406e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T2",
+      "T7",
+      "T1",
+      "T7",
+      "T10",
+      "T13",
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-190",
+    "source": "bigvul",
+    "time_sec": 225.17394995689392
+  },
+  {
+    "success": true,
+    "original_prob": 0.998333752155304,
+    "adversarial_prob": 0.47747930884361267,
+    "prob_shift": 0.5208544433116913,
+    "queries_used": 181,
+    "transforms": [
+      "T10",
+      "T7",
+      "T10",
+      "T18",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 81.73902916908264
+  },
+  {
+    "success": true,
+    "original_prob": 0.9998641014099121,
+    "adversarial_prob": 0.3323700726032257,
+    "prob_shift": 0.6674940288066864,
+    "queries_used": 81,
+    "transforms": [
+      "T14",
+      "T6",
+      "T11",
+      "T4",
+      "T13",
+      "T2",
+      "T14",
+      "T17",
+      "T14",
+      "T17"
+    ],
+    "smt_verified": false,
+    "smt_status": "SAT",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 36.64644455909729
+  },
+  {
+    "success": true,
+    "original_prob": 0.5431259870529175,
+    "adversarial_prob": 0.05160803720355034,
+    "prob_shift": 0.49151794984936714,
+    "queries_used": 21,
+    "transforms": [
+      "T15",
+      "T8",
+      "T17",
+      "T8",
+      "T12",
+      "T13",
+      "T3",
+      "T4",
+      "T8",
+      "T7"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 9.215168714523315
+  },
+  {
+    "success": false,
+    "original_prob": 0.9964845180511475,
+    "adversarial_prob": 0.9956220984458923,
+    "prob_shift": 0.000862419605255127,
+    "queries_used": 501,
+    "transforms": [
+      "T12",
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-476",
+    "source": "bigvul",
+    "time_sec": 231.06507873535156
+  },
+  {
+    "success": false,
+    "original_prob": 0.9997507929801941,
+    "adversarial_prob": 0.9936191439628601,
+    "prob_shift": 0.006131649017333984,
+    "queries_used": 501,
+    "transforms": [
+      "T5",
+      "T15",
+      "T6",
+      "T2",
+      "T14",
+      "T5",
+      "T17"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 240.67363357543945
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998840093612671,
+    "adversarial_prob": 0.8589773774147034,
+    "prob_shift": 0.14090663194656372,
+    "queries_used": 501,
+    "transforms": [
+      "T10",
+      "T6",
+      "T13",
+      "T17",
+      "T10",
+      "T6",
+      "T17",
+      "T17",
+      "T10",
+      "T17"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 181.1480429172516
+  },
+  {
+    "success": false,
+    "original_prob": 0.9993208646774292,
+    "adversarial_prob": 0.9981100559234619,
+    "prob_shift": 0.0012108087539672852,
+    "queries_used": 501,
+    "transforms": [
+      "T10",
+      "T10",
+      "T10",
+      "T10",
+      "T10",
+      "T10",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 170.56493711471558
+  },
+  {
+    "success": true,
+    "original_prob": 0.7633149027824402,
+    "adversarial_prob": 0.3002050518989563,
+    "prob_shift": 0.4631098508834839,
+    "queries_used": 221,
+    "transforms": [
+      "T10",
+      "T10",
+      "T13",
+      "T10",
+      "T13",
+      "T13",
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 74.01692247390747
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998915195465088,
+    "adversarial_prob": 0.9998840093612671,
+    "prob_shift": 7.510185241699219e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T15",
+      "T3",
+      "T11"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 168.66140580177307
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999500513076782,
+    "adversarial_prob": 0.9999334812164307,
+    "prob_shift": 1.6570091247558594e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T5",
+      "T14",
+      "T5",
+      "T5",
+      "T5",
+      "T5",
+      "T5",
+      "T5",
+      "T5",
+      "T5"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-121",
+    "source": "sard",
+    "time_sec": 167.74595022201538
+  },
+  {
+    "success": false,
+    "original_prob": 0.9968045949935913,
+    "adversarial_prob": 0.7373769283294678,
+    "prob_shift": 0.25942766666412354,
+    "queries_used": 501,
+    "transforms": [
+      "T9",
+      "T17",
+      "T7",
+      "T18",
+      "T13",
+      "T9",
+      "T13",
+      "T5",
+      "T7",
+      "T2"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 168.7958047389984
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999574422836304,
+    "adversarial_prob": 0.9999502897262573,
+    "prob_shift": 7.152557373046875e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-121",
+    "source": "sard",
+    "time_sec": 168.65051198005676
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999462366104126,
+    "adversarial_prob": 0.9999382495880127,
+    "prob_shift": 7.987022399902344e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-121",
+    "source": "sard",
+    "time_sec": 167.01133728027344
+  },
+  {
+    "success": true,
+    "original_prob": 0.9994364380836487,
+    "adversarial_prob": 0.3724723756313324,
+    "prob_shift": 0.6269640624523163,
+    "queries_used": 81,
+    "transforms": [
+      "T10",
+      "T6",
+      "T4",
+      "T18",
+      "T11",
+      "T13",
+      "T17",
+      "T12",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 26.857913970947266
+  },
+  {
+    "success": true,
+    "original_prob": 0.7479501366615295,
+    "adversarial_prob": 0.21481992304325104,
+    "prob_shift": 0.5331302136182785,
+    "queries_used": 21,
+    "transforms": [
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 7.173463344573975
+  },
+  {
+    "success": false,
+    "original_prob": 0.9137686491012573,
+    "adversarial_prob": 0.7174285650253296,
+    "prob_shift": 0.19634008407592773,
+    "queries_used": 501,
+    "transforms": [
+      "T13",
+      "T17",
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 168.4741177558899
+  },
+  {
+    "success": true,
+    "original_prob": 0.6290386915206909,
+    "adversarial_prob": 0.41321733593940735,
+    "prob_shift": 0.21582135558128357,
+    "queries_used": 21,
+    "transforms": [
+      "T10",
+      "T14",
+      "T15"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 7.022059440612793
+  },
+  {
+    "success": false,
+    "original_prob": 0.8120238184928894,
+    "adversarial_prob": 0.7120819687843323,
+    "prob_shift": 0.09994184970855713,
+    "queries_used": 501,
+    "transforms": [
+      "T14",
+      "T18",
+      "T14",
+      "T7",
+      "T9",
+      "T14",
+      "T7",
+      "T9",
+      "T8",
+      "T17"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "CWE-125",
+    "source": "bigvul",
+    "time_sec": 172.46424078941345
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999315738677979,
+    "adversarial_prob": 0.9999277591705322,
+    "prob_shift": 3.814697265625e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-122",
+    "source": "sard",
+    "time_sec": 167.76331210136414
+  },
+  {
+    "success": true,
+    "original_prob": 0.9998735189437866,
+    "adversarial_prob": 0.008157359436154366,
+    "prob_shift": 0.9917161595076323,
+    "queries_used": 41,
+    "transforms": [
+      "T5",
+      "T17"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "CWE-416",
+    "source": "bigvul",
+    "time_sec": 13.782334566116333
+  },
+  {
+    "success": false,
+    "original_prob": 0.999950647354126,
+    "adversarial_prob": 0.9999469518661499,
+    "prob_shift": 3.6954879760742188e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T2"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-121",
+    "source": "sard",
+    "time_sec": 169.40537428855896
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998785257339478,
+    "adversarial_prob": 0.9998713731765747,
+    "prob_shift": 7.152557373046875e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T13",
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 168.0557885169983
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999562501907349,
+    "adversarial_prob": 0.9999493360519409,
+    "prob_shift": 6.9141387939453125e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T10",
+      "T1",
+      "T14",
+      "T5"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-191",
+    "source": "sard",
+    "time_sec": 169.4901304244995
+  },
+  {
+    "success": true,
+    "original_prob": 0.9998339414596558,
+    "adversarial_prob": 0.10750873386859894,
+    "prob_shift": 0.8923252075910568,
+    "queries_used": 61,
+    "transforms": [
+      "T10",
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 20.63208508491516
+  },
+  {
+    "success": true,
+    "original_prob": 0.6426908373832703,
+    "adversarial_prob": 0.23634780943393707,
+    "prob_shift": 0.4063430279493332,
+    "queries_used": 21,
+    "transforms": [
+      "T15"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 7.286267518997192
+  },
+  {
+    "success": true,
+    "original_prob": 0.6113187074661255,
+    "adversarial_prob": 0.44157466292381287,
+    "prob_shift": 0.16974404454231262,
+    "queries_used": 161,
+    "transforms": [
+      "T13",
+      "T11",
+      "T11",
+      "T5",
+      "T10",
+      "T4"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 53.93652105331421
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999198913574219,
+    "adversarial_prob": 0.9757034182548523,
+    "prob_shift": 0.02421647310256958,
+    "queries_used": 501,
+    "transforms": [
+      "T4",
+      "T10",
+      "T8",
+      "T14",
+      "T1",
+      "T18",
+      "T10",
+      "T18",
+      "T10",
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 169.4969184398651
+  },
+  {
+    "success": false,
+    "original_prob": 0.999954342842102,
+    "adversarial_prob": 0.9999511241912842,
+    "prob_shift": 3.2186508178710938e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T9",
+      "T18",
+      "T17",
+      "T4"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-122",
+    "source": "sard",
+    "time_sec": 169.3469841480255
+  },
+  {
+    "success": false,
+    "original_prob": 0.998012900352478,
+    "adversarial_prob": 0.6765394806861877,
+    "prob_shift": 0.3214734196662903,
+    "queries_used": 501,
+    "transforms": [
+      "T17",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 168.2468237876892
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999489784240723,
+    "adversarial_prob": 0.9999489784240723,
+    "prob_shift": 0.0,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-134",
+    "source": "sard",
+    "time_sec": 169.2300581932068
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999344348907471,
+    "adversarial_prob": 0.9999293088912964,
+    "prob_shift": 5.125999450683594e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-127",
+    "source": "sard",
+    "time_sec": 168.5953767299652
+  },
+  {
+    "success": true,
+    "original_prob": 0.9981967806816101,
+    "adversarial_prob": 0.32275456190109253,
+    "prob_shift": 0.6754422187805176,
+    "queries_used": 161,
+    "transforms": [
+      "T13",
+      "T13",
+      "T15",
+      "T4",
+      "T3",
+      "T9",
+      "T9",
+      "T13",
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 54.68816518783569
+  },
+  {
+    "success": true,
+    "original_prob": 0.6931696534156799,
+    "adversarial_prob": 0.34196215867996216,
+    "prob_shift": 0.3512074947357178,
+    "queries_used": 221,
+    "transforms": [
+      "T13",
+      "T6",
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 75.29257392883301
+  },
+  {
+    "success": false,
+    "original_prob": 0.9997935891151428,
+    "adversarial_prob": 0.9998077750205994,
+    "prob_shift": -1.4185905456542969e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-416",
+    "source": "bigvul",
+    "time_sec": 169.546537399292
+  },
+  {
+    "success": false,
+    "original_prob": 0.999947190284729,
+    "adversarial_prob": 0.9999402761459351,
+    "prob_shift": 6.9141387939453125e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-121",
+    "source": "sard",
+    "time_sec": 169.7507665157318
+  },
+  {
+    "success": true,
+    "original_prob": 0.5488064289093018,
+    "adversarial_prob": 0.2612762451171875,
+    "prob_shift": 0.28753018379211426,
+    "queries_used": 21,
+    "transforms": [
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 7.088567495346069
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998669624328613,
+    "adversarial_prob": 0.9998655319213867,
+    "prob_shift": 1.430511474609375e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T8",
+      "T15",
+      "T11"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "CWE-415",
+    "source": "bigvul",
+    "time_sec": 169.90220475196838
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998316764831543,
+    "adversarial_prob": 0.9998539686203003,
+    "prob_shift": -2.2292137145996094e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-125",
+    "source": "bigvul",
+    "time_sec": 168.76421523094177
+  },
+  {
+    "success": false,
+    "original_prob": 0.9994996786117554,
+    "adversarial_prob": 0.9956696033477783,
+    "prob_shift": 0.0038300752639770508,
+    "queries_used": 501,
+    "transforms": [
+      "T18",
+      "T2",
+      "T10",
+      "T17",
+      "T2",
+      "T10",
+      "T10",
+      "T17"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-125",
+    "source": "bigvul",
+    "time_sec": 174.44092750549316
+  },
+  {
+    "success": false,
+    "original_prob": 0.9497299194335938,
+    "adversarial_prob": 0.9029430150985718,
+    "prob_shift": 0.04678690433502197,
+    "queries_used": 501,
+    "transforms": [
+      "T10",
+      "T14"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "CWE-125",
+    "source": "bigvul",
+    "time_sec": 179.07564163208008
+  },
+  {
+    "success": false,
+    "original_prob": 0.9899999499320984,
+    "adversarial_prob": 0.7891753315925598,
+    "prob_shift": 0.20082461833953857,
+    "queries_used": 501,
+    "transforms": [
+      "T15",
+      "T10",
+      "T4",
+      "T10",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 169.17384576797485
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999226331710815,
+    "adversarial_prob": 0.9999146461486816,
+    "prob_shift": 7.987022399902344e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-127",
+    "source": "sard",
+    "time_sec": 168.61176586151123
+  },
+  {
+    "success": true,
+    "original_prob": 0.5974258184432983,
+    "adversarial_prob": 0.490940660238266,
+    "prob_shift": 0.10648515820503235,
+    "queries_used": 81,
+    "transforms": [
+      "T13",
+      "T17"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 27.384412050247192
+  },
+  {
+    "success": false,
+    "original_prob": 0.9991639852523804,
+    "adversarial_prob": 0.9976970553398132,
+    "prob_shift": 0.0014669299125671387,
+    "queries_used": 501,
+    "transforms": [
+      "T4",
+      "T10",
+      "T4",
+      "T10",
+      "T10",
+      "T4"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 169.64546275138855
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998219609260559,
+    "adversarial_prob": 0.8034641146659851,
+    "prob_shift": 0.1963578462600708,
+    "queries_used": 501,
+    "transforms": [
+      "T13",
+      "T17"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 168.46788907051086
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998509883880615,
+    "adversarial_prob": 0.9998279809951782,
+    "prob_shift": 2.300739288330078e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T6",
+      "T16",
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 171.39384531974792
+  },
+  {
+    "success": true,
+    "original_prob": 0.5610949993133545,
+    "adversarial_prob": 0.42763060331344604,
+    "prob_shift": 0.13346439599990845,
+    "queries_used": 21,
+    "transforms": [
+      "T17",
+      "T7"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 7.180404901504517
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999510049819946,
+    "adversarial_prob": 0.9999475479125977,
+    "prob_shift": 3.4570693969726562e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-134",
+    "source": "sard",
+    "time_sec": 170.64834856987
+  },
+  {
+    "success": true,
+    "original_prob": 0.9997147917747498,
+    "adversarial_prob": 0.43367597460746765,
+    "prob_shift": 0.5660388171672821,
+    "queries_used": 81,
+    "transforms": [
+      "T13",
+      "T14"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 27.497828483581543
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998995065689087,
+    "adversarial_prob": 0.9998552799224854,
+    "prob_shift": 4.4226646423339844e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-476",
+    "source": "bigvul",
+    "time_sec": 171.49463844299316
+  },
+  {
+    "success": false,
+    "original_prob": 0.9993236064910889,
+    "adversarial_prob": 0.9993236064910889,
+    "prob_shift": 0.0,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 171.24906277656555
+  },
+  {
+    "success": false,
+    "original_prob": 0.9914759397506714,
+    "adversarial_prob": 0.9544696807861328,
+    "prob_shift": 0.037006258964538574,
+    "queries_used": 501,
+    "transforms": [
+      "T10",
+      "T16",
+      "T10",
+      "T13",
+      "T6",
+      "T9",
+      "T16",
+      "T10",
+      "T13",
+      "T11"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 174.4793164730072
+  },
+  {
+    "success": true,
+    "original_prob": 0.6599343419075012,
+    "adversarial_prob": 0.006878143176436424,
+    "prob_shift": 0.6530561987310648,
+    "queries_used": 21,
+    "transforms": [
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 7.199797868728638
+  },
+  {
+    "success": false,
+    "original_prob": 0.9997890591621399,
+    "adversarial_prob": 0.9740347266197205,
+    "prob_shift": 0.025754332542419434,
+    "queries_used": 501,
+    "transforms": [
+      "T4",
+      "T9",
+      "T1",
+      "T6",
+      "T9",
+      "T4",
+      "T10",
+      "T17",
+      "T17",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 171.05629897117615
+  },
+  {
+    "success": false,
+    "original_prob": 0.9775576591491699,
+    "adversarial_prob": 0.618382453918457,
+    "prob_shift": 0.3591752052307129,
+    "queries_used": 501,
+    "transforms": [
+      "T10",
+      "T7",
+      "T7",
+      "T17",
+      "T10",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 170.6479675769806
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999510049819946,
+    "adversarial_prob": 0.9999452829360962,
+    "prob_shift": 5.7220458984375e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1",
+      "T2",
+      "T3",
+      "T10",
+      "T2",
+      "T5"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-126",
+    "source": "sard",
+    "time_sec": 171.60108160972595
+  },
+  {
+    "success": true,
+    "original_prob": 0.5955440998077393,
+    "adversarial_prob": 0.3737758696079254,
+    "prob_shift": 0.22176823019981384,
+    "queries_used": 21,
+    "transforms": [
+      "T17"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 7.166423559188843
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999585151672363,
+    "adversarial_prob": 0.9999523162841797,
+    "prob_shift": 6.198883056640625e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-126",
+    "source": "sard",
+    "time_sec": 169.97420954704285
+  },
+  {
+    "success": false,
+    "original_prob": 0.9756801128387451,
+    "adversarial_prob": 0.9182077050209045,
+    "prob_shift": 0.057472407817840576,
+    "queries_used": 501,
+    "transforms": [
+      "T13",
+      "T13",
+      "T9",
+      "T10",
+      "T16",
+      "T16",
+      "T1",
+      "T10",
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 171.72712326049805
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998763799667358,
+    "adversarial_prob": 0.9998643398284912,
+    "prob_shift": 1.2040138244628906e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-476",
+    "source": "bigvul",
+    "time_sec": 170.89197301864624
+  },
+  {
+    "success": false,
+    "original_prob": 0.9997562766075134,
+    "adversarial_prob": 0.9997430443763733,
+    "prob_shift": 1.3232231140136719e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-415",
+    "source": "bigvul",
+    "time_sec": 168.57737112045288
+  },
+  {
+    "success": true,
+    "original_prob": 0.5857234597206116,
+    "adversarial_prob": 0.05939432233572006,
+    "prob_shift": 0.5263291373848915,
+    "queries_used": 21,
+    "transforms": [
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 7.064532518386841
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998317956924438,
+    "adversarial_prob": 0.9998168349266052,
+    "prob_shift": 1.4960765838623047e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 168.87526512145996
+  },
+  {
+    "success": false,
+    "original_prob": 0.6916241645812988,
+    "adversarial_prob": 0.6916241645812988,
+    "prob_shift": 0.0,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 169.50138473510742
+  },
+  {
+    "success": false,
+    "original_prob": 0.999946117401123,
+    "adversarial_prob": 0.9999333620071411,
+    "prob_shift": 1.2755393981933594e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T10",
+      "T17"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-415",
+    "source": "sard",
+    "time_sec": 168.76345348358154
+  },
+  {
+    "success": false,
+    "original_prob": 0.9997989535331726,
+    "adversarial_prob": 0.9997022747993469,
+    "prob_shift": 9.66787338256836e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T10",
+      "T7",
+      "T11",
+      "T3"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-125",
+    "source": "bigvul",
+    "time_sec": 174.0804762840271
+  },
+  {
+    "success": true,
+    "original_prob": 0.5084134340286255,
+    "adversarial_prob": 0.3152941167354584,
+    "prob_shift": 0.19311931729316711,
+    "queries_used": 21,
+    "transforms": [
+      "T13",
+      "T2",
+      "T3",
+      "T14"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 7.145766735076904
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999513626098633,
+    "adversarial_prob": 0.9999459981918335,
+    "prob_shift": 5.364418029785156e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T10",
+      "T14",
+      "T1",
+      "T2",
+      "T6",
+      "T3"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-124",
+    "source": "sard",
+    "time_sec": 169.51513409614563
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999055862426758,
+    "adversarial_prob": 0.9999010562896729,
+    "prob_shift": 4.5299530029296875e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T11",
+      "T3",
+      "T1",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 170.7787163257599
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999514818191528,
+    "adversarial_prob": 0.9999457597732544,
+    "prob_shift": 5.7220458984375e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-122",
+    "source": "sard",
+    "time_sec": 169.7947199344635
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999432563781738,
+    "adversarial_prob": 0.9999332427978516,
+    "prob_shift": 1.0013580322265625e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-122",
+    "source": "sard",
+    "time_sec": 168.05532956123352
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999547004699707,
+    "adversarial_prob": 0.9999476671218872,
+    "prob_shift": 7.033348083496094e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T10",
+      "T4"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-134",
+    "source": "sard",
+    "time_sec": 168.75652313232422
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998433589935303,
+    "adversarial_prob": 0.999809205532074,
+    "prob_shift": 3.415346145629883e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-476",
+    "source": "bigvul",
+    "time_sec": 168.66236758232117
+  },
+  {
+    "success": false,
+    "original_prob": 0.999849796295166,
+    "adversarial_prob": 0.9998500347137451,
+    "prob_shift": -2.384185791015625e-07,
+    "queries_used": 501,
+    "transforms": [
+      "T15"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 159.60162258148193
+  },
+  {
+    "success": true,
+    "original_prob": 0.9998800754547119,
+    "adversarial_prob": 0.38432419300079346,
+    "prob_shift": 0.6155558824539185,
+    "queries_used": 41,
+    "transforms": [
+      "T17"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-476",
+    "source": "bigvul",
+    "time_sec": 13.733894348144531
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998937845230103,
+    "adversarial_prob": 0.9998924732208252,
+    "prob_shift": 1.3113021850585938e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 168.58894181251526
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999080896377563,
+    "adversarial_prob": 0.9999017715454102,
+    "prob_shift": 6.318092346191406e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T5"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 168.60360407829285
+  },
+  {
+    "success": false,
+    "original_prob": 0.999958872795105,
+    "adversarial_prob": 0.9999487400054932,
+    "prob_shift": 1.0132789611816406e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-134",
+    "source": "sard",
+    "time_sec": 168.19706201553345
+  },
+  {
+    "success": true,
+    "original_prob": 0.999811589717865,
+    "adversarial_prob": 0.44942060112953186,
+    "prob_shift": 0.5503909885883331,
+    "queries_used": 181,
+    "transforms": [
+      "T10",
+      "T10",
+      "T5",
+      "T12",
+      "T5"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 61.71413707733154
+  },
+  {
+    "success": true,
+    "original_prob": 0.7133094668388367,
+    "adversarial_prob": 0.048586405813694,
+    "prob_shift": 0.6647230610251427,
+    "queries_used": 61,
+    "transforms": [
+      "T12",
+      "T17",
+      "T9",
+      "T17",
+      "T13",
+      "T8",
+      "T12",
+      "T16"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 20.390958309173584
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998286962509155,
+    "adversarial_prob": 0.9998570680618286,
+    "prob_shift": -2.8371810913085938e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 168.10576248168945
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999579191207886,
+    "adversarial_prob": 0.999953031539917,
+    "prob_shift": 4.887580871582031e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T11",
+      "T12",
+      "T8",
+      "T13",
+      "T14",
+      "T12"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-122",
+    "source": "sard",
+    "time_sec": 169.49542093276978
+  },
+  {
+    "success": true,
+    "original_prob": 0.9998834133148193,
+    "adversarial_prob": 0.29714056849479675,
+    "prob_shift": 0.7027428448200226,
+    "queries_used": 301,
+    "transforms": [
+      "T17",
+      "T5",
+      "T17",
+      "T5",
+      "T17",
+      "T5"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "CWE-476",
+    "source": "bigvul",
+    "time_sec": 104.54908108711243
+  },
+  {
+    "success": false,
+    "original_prob": 0.999956488609314,
+    "adversarial_prob": 0.9999492168426514,
+    "prob_shift": 7.271766662597656e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T2",
+      "T2",
+      "T13",
+      "T4",
+      "T5",
+      "T18"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-121",
+    "source": "sard",
+    "time_sec": 169.13061904907227
+  },
+  {
+    "success": false,
+    "original_prob": 0.7487130761146545,
+    "adversarial_prob": 0.7487130761146545,
+    "prob_shift": 0.0,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 174.9882457256317
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998862743377686,
+    "adversarial_prob": 0.9998888969421387,
+    "prob_shift": -2.6226043701171875e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 170.35536885261536
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999498128890991,
+    "adversarial_prob": 0.9999442100524902,
+    "prob_shift": 5.602836608886719e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-121",
+    "source": "sard",
+    "time_sec": 169.56472039222717
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998644590377808,
+    "adversarial_prob": 0.9998677968978882,
+    "prob_shift": -3.337860107421875e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T14"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-125",
+    "source": "bigvul",
+    "time_sec": 170.39553713798523
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998262524604797,
+    "adversarial_prob": 0.9998646974563599,
+    "prob_shift": -3.844499588012695e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T18",
+      "T18",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 169.84117245674133
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999548196792603,
+    "adversarial_prob": 0.99994957447052,
+    "prob_shift": 5.245208740234375e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T7",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-191",
+    "source": "sard",
+    "time_sec": 169.82011890411377
+  },
+  {
+    "success": false,
+    "original_prob": 0.9997387528419495,
+    "adversarial_prob": 0.9996246099472046,
+    "prob_shift": 0.00011414289474487305,
+    "queries_used": 501,
+    "transforms": [
+      "T10",
+      "T10",
+      "T10",
+      "T10",
+      "T10",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 169.1960597038269
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999544620513916,
+    "adversarial_prob": 0.9999489784240723,
+    "prob_shift": 5.4836273193359375e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-122",
+    "source": "sard",
+    "time_sec": 170.04626989364624
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999502897262573,
+    "adversarial_prob": 0.9999459981918335,
+    "prob_shift": 4.291534423828125e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-191",
+    "source": "sard",
+    "time_sec": 168.49785375595093
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998983144760132,
+    "adversarial_prob": 0.9998611211776733,
+    "prob_shift": 3.719329833984375e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T5",
+      "T17"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-125",
+    "source": "bigvul",
+    "time_sec": 168.66213274002075
+  },
+  {
+    "success": false,
+    "original_prob": 0.999812662601471,
+    "adversarial_prob": 0.9998584985733032,
+    "prob_shift": -4.583597183227539e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-416",
+    "source": "bigvul",
+    "time_sec": 168.21958756446838
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998961687088013,
+    "adversarial_prob": 0.9998961687088013,
+    "prob_shift": 0.0,
+    "queries_used": 501,
+    "transforms": [
+      "T2"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-125",
+    "source": "bigvul",
+    "time_sec": 168.0587363243103
+  },
+  {
+    "success": false,
+    "original_prob": 0.9664241671562195,
+    "adversarial_prob": 0.9451133608818054,
+    "prob_shift": 0.021310806274414062,
+    "queries_used": 501,
+    "transforms": [
+      "T10",
+      "T4",
+      "T4"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 171.31340217590332
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999054670333862,
+    "adversarial_prob": 0.999890923500061,
+    "prob_shift": 1.4543533325195312e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T5",
+      "T10",
+      "T5",
+      "T10",
+      "T10",
+      "T16",
+      "T10",
+      "T5",
+      "T10",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 167.31263732910156
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999110698699951,
+    "adversarial_prob": 0.9998986721038818,
+    "prob_shift": 1.239776611328125e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 167.81437253952026
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998898506164551,
+    "adversarial_prob": 0.9998668432235718,
+    "prob_shift": 2.300739288330078e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T5",
+      "T15"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-190",
+    "source": "bigvul",
+    "time_sec": 168.56291842460632
+  },
+  {
+    "success": true,
+    "original_prob": 0.5136739015579224,
+    "adversarial_prob": 0.3536924421787262,
+    "prob_shift": 0.15998145937919617,
+    "queries_used": 21,
+    "transforms": [
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 7.107711553573608
+  },
+  {
+    "success": false,
+    "original_prob": 0.9837424755096436,
+    "adversarial_prob": 0.8979339003562927,
+    "prob_shift": 0.08580857515335083,
+    "queries_used": 501,
+    "transforms": [
+      "T17",
+      "T11",
+      "T10",
+      "T12",
+      "T8",
+      "T2"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 168.0824921131134
+  },
+  {
+    "success": true,
+    "original_prob": 0.984413743019104,
+    "adversarial_prob": 0.08457581698894501,
+    "prob_shift": 0.899837926030159,
+    "queries_used": 21,
+    "transforms": [
+      "T17"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 7.036957502365112
+  },
+  {
+    "success": true,
+    "original_prob": 0.9996962547302246,
+    "adversarial_prob": 0.3041089177131653,
+    "prob_shift": 0.6955873370170593,
+    "queries_used": 221,
+    "transforms": [
+      "T15",
+      "T17",
+      "T17",
+      "T10",
+      "T3"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 73.99782633781433
+  },
+  {
+    "success": false,
+    "original_prob": 0.999934196472168,
+    "adversarial_prob": 0.9999125003814697,
+    "prob_shift": 2.1696090698242188e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T11",
+      "T16",
+      "T4",
+      "T6",
+      "T17",
+      "T17",
+      "T16",
+      "T10",
+      "T1",
+      "T4"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-124",
+    "source": "sard",
+    "time_sec": 167.79680562019348
+  },
+  {
+    "success": true,
+    "original_prob": 0.999855637550354,
+    "adversarial_prob": 0.041979845613241196,
+    "prob_shift": 0.9578757919371128,
+    "queries_used": 21,
+    "transforms": [
+      "T17"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "CWE-476",
+    "source": "bigvul",
+    "time_sec": 7.06620979309082
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998434782028198,
+    "adversarial_prob": 0.9713209271430969,
+    "prob_shift": 0.0285225510597229,
+    "queries_used": 501,
+    "transforms": [
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 168.42136979103088
+  },
+  {
+    "success": false,
+    "original_prob": 0.9347907304763794,
+    "adversarial_prob": 0.8101414442062378,
+    "prob_shift": 0.1246492862701416,
+    "queries_used": 501,
+    "transforms": [
+      "T18",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "CWE-787",
+    "source": "bigvul",
+    "time_sec": 169.4386007785797
+  },
+  {
+    "success": true,
+    "original_prob": 0.6156411170959473,
+    "adversarial_prob": 0.29451680183410645,
+    "prob_shift": 0.3211243152618408,
+    "queries_used": 21,
+    "transforms": [
+      "T18",
+      "T18",
+      "T14",
+      "T7",
+      "T13",
+      "T18",
+      "T18"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 7.14940619468689
+  },
+  {
+    "success": false,
+    "original_prob": 0.999954104423523,
+    "adversarial_prob": 0.9999520778656006,
+    "prob_shift": 2.0265579223632812e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-124",
+    "source": "sard",
+    "time_sec": 170.10500478744507
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999502897262573,
+    "adversarial_prob": 0.9999474287033081,
+    "prob_shift": 2.86102294921875e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T13",
+      "T3"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-122",
+    "source": "sard",
+    "time_sec": 169.00347805023193
+  },
+  {
+    "success": true,
+    "original_prob": 0.9978439807891846,
+    "adversarial_prob": 0.4370000660419464,
+    "prob_shift": 0.5608439147472382,
+    "queries_used": 101,
+    "transforms": [
+      "T16",
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 34.17626690864563
+  },
+  {
+    "success": true,
+    "original_prob": 0.8830701112747192,
+    "adversarial_prob": 0.4003317058086395,
+    "prob_shift": 0.4827384054660797,
+    "queries_used": 61,
+    "transforms": [
+      "T10",
+      "T14",
+      "T6",
+      "T9",
+      "T10",
+      "T10",
+      "T2",
+      "T14",
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 20.60434889793396
+  },
+  {
+    "success": false,
+    "original_prob": 0.9996578693389893,
+    "adversarial_prob": 0.9982606768608093,
+    "prob_shift": 0.0013971924781799316,
+    "queries_used": 501,
+    "transforms": [
+      "T8",
+      "T14",
+      "T10",
+      "T16",
+      "T10",
+      "T10",
+      "T10",
+      "T10",
+      "T7",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-125",
+    "source": "bigvul",
+    "time_sec": 168.71205186843872
+  },
+  {
+    "success": true,
+    "original_prob": 0.5430431962013245,
+    "adversarial_prob": 0.14398697018623352,
+    "prob_shift": 0.39905622601509094,
+    "queries_used": 21,
+    "transforms": [
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 7.118014812469482
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999454021453857,
+    "adversarial_prob": 0.9999294281005859,
+    "prob_shift": 1.5974044799804688e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T6",
+      "T15"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-121",
+    "source": "sard",
+    "time_sec": 168.31315565109253
+  },
+  {
+    "success": true,
+    "original_prob": 0.9994725584983826,
+    "adversarial_prob": 0.3637655973434448,
+    "prob_shift": 0.6357069611549377,
+    "queries_used": 81,
+    "transforms": [
+      "T10",
+      "T5",
+      "T14",
+      "T2",
+      "T17",
+      "T11",
+      "T17",
+      "T7",
+      "T10",
+      "T5"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 27.099724292755127
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999547004699707,
+    "adversarial_prob": 0.9999470710754395,
+    "prob_shift": 7.62939453125e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-134",
+    "source": "sard",
+    "time_sec": 168.5798144340515
+  },
+  {
+    "success": false,
+    "original_prob": 0.8567530512809753,
+    "adversarial_prob": 0.9506320357322693,
+    "prob_shift": -0.09387898445129395,
+    "queries_used": 501,
+    "transforms": [
+      "T14"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 168.4866921901703
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998983144760132,
+    "adversarial_prob": 0.9998636245727539,
+    "prob_shift": 3.4689903259277344e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T13",
+      "T13",
+      "T13",
+      "T13",
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-125",
+    "source": "bigvul",
+    "time_sec": 168.19023966789246
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998824596405029,
+    "adversarial_prob": 0.9998323917388916,
+    "prob_shift": 5.0067901611328125e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T5",
+      "T10",
+      "T13",
+      "T5",
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 167.87912392616272
+  },
+  {
+    "success": true,
+    "original_prob": 0.9998683929443359,
+    "adversarial_prob": 0.0014669947559013963,
+    "prob_shift": 0.9984013981884345,
+    "queries_used": 101,
+    "transforms": [
+      "T5",
+      "T15",
+      "T10",
+      "T17",
+      "T15",
+      "T18",
+      "T10",
+      "T4",
+      "T16",
+      "T14"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 33.72034311294556
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999547004699707,
+    "adversarial_prob": 0.9999477863311768,
+    "prob_shift": 6.9141387939453125e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T11",
+      "T14",
+      "T10",
+      "T5"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-127",
+    "source": "sard",
+    "time_sec": 167.90927982330322
+  },
+  {
+    "success": false,
+    "original_prob": 0.999848484992981,
+    "adversarial_prob": 0.9998351335525513,
+    "prob_shift": 1.33514404296875e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T5"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-125",
+    "source": "bigvul",
+    "time_sec": 167.41295742988586
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999548196792603,
+    "adversarial_prob": 0.9999490976333618,
+    "prob_shift": 5.7220458984375e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T5",
+      "T16",
+      "T10",
+      "T9",
+      "T5"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-124",
+    "source": "sard",
+    "time_sec": 168.74953532218933
+  },
+  {
+    "success": false,
+    "original_prob": 0.9199469685554504,
+    "adversarial_prob": 0.9199469685554504,
+    "prob_shift": 0.0,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 168.8947639465332
+  },
+  {
+    "success": false,
+    "original_prob": 0.9997451901435852,
+    "adversarial_prob": 0.9997221827507019,
+    "prob_shift": 2.300739288330078e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 166.72956347465515
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998348951339722,
+    "adversarial_prob": 0.9998328685760498,
+    "prob_shift": 2.0265579223632812e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-125",
+    "source": "bigvul",
+    "time_sec": 168.32439517974854
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998805522918701,
+    "adversarial_prob": 0.9998624324798584,
+    "prob_shift": 1.811981201171875e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T17",
+      "T17"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-190",
+    "source": "bigvul",
+    "time_sec": 167.4905035495758
+  },
+  {
+    "success": false,
+    "original_prob": 0.6739451289176941,
+    "adversarial_prob": 0.6739451289176941,
+    "prob_shift": 0.0,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 192.94247198104858
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999536275863647,
+    "adversarial_prob": 0.9999502897262573,
+    "prob_shift": 3.337860107421875e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-416",
+    "source": "sard",
+    "time_sec": 195.81051969528198
+  },
+  {
+    "success": false,
+    "original_prob": 0.9995506405830383,
+    "adversarial_prob": 0.9659024477005005,
+    "prob_shift": 0.03364819288253784,
+    "queries_used": 501,
+    "transforms": [
+      "T16",
+      "T10",
+      "T9",
+      "T11",
+      "T13",
+      "T16",
+      "T10",
+      "T7",
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 198.1636142730713
+  },
+  {
+    "success": true,
+    "original_prob": 0.9998756647109985,
+    "adversarial_prob": 0.43699079751968384,
+    "prob_shift": 0.5628848671913147,
+    "queries_used": 21,
+    "transforms": [
+      "T17"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 8.19626498222351
+  },
+  {
+    "success": false,
+    "original_prob": 0.99985671043396,
+    "adversarial_prob": 0.9998494386672974,
+    "prob_shift": 7.271766662597656e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-416",
+    "source": "bigvul",
+    "time_sec": 195.64812850952148
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999144077301025,
+    "adversarial_prob": 0.9999024868011475,
+    "prob_shift": 1.1920928955078125e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T13",
+      "T15"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 196.6132035255432
+  },
+  {
+    "success": true,
+    "original_prob": 0.9490432143211365,
+    "adversarial_prob": 0.48118045926094055,
+    "prob_shift": 0.4678627550601959,
+    "queries_used": 41,
+    "transforms": [
+      "T15",
+      "T12",
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 16.47892141342163
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999599456787109,
+    "adversarial_prob": 0.9999524354934692,
+    "prob_shift": 7.510185241699219e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T8",
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-457",
+    "source": "sard",
+    "time_sec": 200.7118272781372
+  },
+  {
+    "success": false,
+    "original_prob": 0.999948263168335,
+    "adversarial_prob": 0.9999409914016724,
+    "prob_shift": 7.271766662597656e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-124",
+    "source": "sard",
+    "time_sec": 198.99889826774597
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999250173568726,
+    "adversarial_prob": 0.9999213218688965,
+    "prob_shift": 3.6954879760742188e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-122",
+    "source": "sard",
+    "time_sec": 198.1274025440216
+  },
+  {
+    "success": true,
+    "original_prob": 0.6921813488006592,
+    "adversarial_prob": 0.40744462609291077,
+    "prob_shift": 0.2847367227077484,
+    "queries_used": 21,
+    "transforms": [
+      "T4",
+      "T8",
+      "T18",
+      "T1",
+      "T18"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 8.234014511108398
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998517036437988,
+    "adversarial_prob": 0.9998412132263184,
+    "prob_shift": 1.049041748046875e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T14",
+      "T15"
+    ],
+    "smt_verified": false,
+    "smt_status": "SAT",
+    "exploit_preserved": null,
+    "cwe": "CWE-476",
+    "source": "bigvul",
+    "time_sec": 198.03817892074585
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998619556427002,
+    "adversarial_prob": 0.9998570680618286,
+    "prob_shift": 4.887580871582031e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T11"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-190",
+    "source": "bigvul",
+    "time_sec": 193.38170623779297
+  },
+  {
+    "success": true,
+    "original_prob": 0.5107290148735046,
+    "adversarial_prob": 0.10073961317539215,
+    "prob_shift": 0.4099894016981125,
+    "queries_used": 21,
+    "transforms": [
+      "T10",
+      "T7",
+      "T13",
+      "T11",
+      "T15",
+      "T16"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 8.251129627227783
+  },
+  {
+    "success": true,
+    "original_prob": 0.9989424347877502,
+    "adversarial_prob": 0.4090838134288788,
+    "prob_shift": 0.5898586213588715,
+    "queries_used": 21,
+    "transforms": [
+      "T15"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 8.291564702987671
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999544620513916,
+    "adversarial_prob": 0.9999485015869141,
+    "prob_shift": 5.9604644775390625e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T12",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-190",
+    "source": "sard",
+    "time_sec": 195.45035219192505
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999548196792603,
+    "adversarial_prob": 0.9999490976333618,
+    "prob_shift": 5.7220458984375e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T16",
+      "T15"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-191",
+    "source": "sard",
+    "time_sec": 196.12473511695862
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999098777770996,
+    "adversarial_prob": 0.9998766183853149,
+    "prob_shift": 3.325939178466797e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T6",
+      "T13",
+      "T12",
+      "T13",
+      "T16",
+      "T2"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-125",
+    "source": "bigvul",
+    "time_sec": 198.4284586906433
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998797178268433,
+    "adversarial_prob": 0.9998593330383301,
+    "prob_shift": 2.0384788513183594e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-190",
+    "source": "bigvul",
+    "time_sec": 196.96351289749146
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998718500137329,
+    "adversarial_prob": 0.9998583793640137,
+    "prob_shift": 1.3470649719238281e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T17",
+      "T17"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-476",
+    "source": "bigvul",
+    "time_sec": 196.0253918170929
+  },
+  {
+    "success": false,
+    "original_prob": 0.9997617602348328,
+    "adversarial_prob": 0.9997596144676208,
+    "prob_shift": 2.1457672119140625e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T14"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-125",
+    "source": "bigvul",
+    "time_sec": 201.8489475250244
+  },
+  {
+    "success": false,
+    "original_prob": 0.9995793700218201,
+    "adversarial_prob": 0.6701042652130127,
+    "prob_shift": 0.3294751048088074,
+    "queries_used": 501,
+    "transforms": [
+      "T10",
+      "T13",
+      "T10",
+      "T9",
+      "T2",
+      "T13",
+      "T16",
+      "T2",
+      "T17"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 208.6733422279358
+  },
+  {
+    "success": true,
+    "original_prob": 0.6846394538879395,
+    "adversarial_prob": 0.4901423752307892,
+    "prob_shift": 0.19449707865715027,
+    "queries_used": 41,
+    "transforms": [
+      "T6",
+      "T2",
+      "T16",
+      "T10",
+      "T18",
+      "T18"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 17.199296951293945
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999063014984131,
+    "adversarial_prob": 0.9559972286224365,
+    "prob_shift": 0.04390907287597656,
+    "queries_used": 501,
+    "transforms": [
+      "T10",
+      "T13",
+      "T10",
+      "T10",
+      "T13",
+      "T13",
+      "T10",
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 201.9305169582367
+  },
+  {
+    "success": true,
+    "original_prob": 0.9995805621147156,
+    "adversarial_prob": 0.37592530250549316,
+    "prob_shift": 0.6236552596092224,
+    "queries_used": 41,
+    "transforms": [
+      "T10",
+      "T15"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 16.110475540161133
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999388456344604,
+    "adversarial_prob": 0.9999263286590576,
+    "prob_shift": 1.2516975402832031e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-134",
+    "source": "sard",
+    "time_sec": 211.18507552146912
+  },
+  {
+    "success": false,
+    "original_prob": 0.9925181865692139,
+    "adversarial_prob": 0.9604809284210205,
+    "prob_shift": 0.03203725814819336,
+    "queries_used": 501,
+    "transforms": [
+      "T4",
+      "T10",
+      "T13",
+      "T6",
+      "T8"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 215.87261366844177
+  },
+  {
+    "success": true,
+    "original_prob": 0.9998668432235718,
+    "adversarial_prob": 0.023683007806539536,
+    "prob_shift": 0.9761838354170322,
+    "queries_used": 21,
+    "transforms": [
+      "T14",
+      "T16",
+      "T5",
+      "T17",
+      "T11",
+      "T3",
+      "T14",
+      "T13",
+      "T14",
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 8.947481155395508
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999533891677856,
+    "adversarial_prob": 0.9999454021453857,
+    "prob_shift": 7.987022399902344e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T5",
+      "T5",
+      "T5",
+      "T5",
+      "T5",
+      "T5",
+      "T5",
+      "T5",
+      "T7"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-127",
+    "source": "sard",
+    "time_sec": 210.3832187652588
+  },
+  {
+    "success": true,
+    "original_prob": 0.9998699426651001,
+    "adversarial_prob": 0.01245790533721447,
+    "prob_shift": 0.9874120373278856,
+    "queries_used": 141,
+    "transforms": [
+      "T13",
+      "T13",
+      "T13",
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 59.5384783744812
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999538660049438,
+    "adversarial_prob": 0.9999500513076782,
+    "prob_shift": 3.814697265625e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-122",
+    "source": "sard",
+    "time_sec": 210.5918459892273
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999563694000244,
+    "adversarial_prob": 0.9999523162841797,
+    "prob_shift": 4.0531158447265625e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T17"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-190",
+    "source": "sard",
+    "time_sec": 213.01636171340942
+  },
+  {
+    "success": false,
+    "original_prob": 0.9997691512107849,
+    "adversarial_prob": 0.9997738003730774,
+    "prob_shift": -4.649162292480469e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-416",
+    "source": "bigvul",
+    "time_sec": 211.36821508407593
+  },
+  {
+    "success": false,
+    "original_prob": 0.7787892818450928,
+    "adversarial_prob": 0.5916242599487305,
+    "prob_shift": 0.1871650218963623,
+    "queries_used": 501,
+    "transforms": [
+      "T10",
+      "T7",
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 213.1096134185791
+  },
+  {
+    "success": true,
+    "original_prob": 0.8430154323577881,
+    "adversarial_prob": 0.4859248399734497,
+    "prob_shift": 0.3570905923843384,
+    "queries_used": 181,
+    "transforms": [
+      "T17",
+      "T11"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 77.76382732391357
+  },
+  {
+    "success": false,
+    "original_prob": 0.999954342842102,
+    "adversarial_prob": 0.9999508857727051,
+    "prob_shift": 3.4570693969726562e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-124",
+    "source": "sard",
+    "time_sec": 210.8618369102478
+  },
+  {
+    "success": true,
+    "original_prob": 0.9981661438941956,
+    "adversarial_prob": 0.07288578897714615,
+    "prob_shift": 0.9252803549170494,
+    "queries_used": 21,
+    "transforms": [
+      "T2",
+      "T3",
+      "T13",
+      "T8",
+      "T10",
+      "T15",
+      "T3"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 8.924441814422607
+  },
+  {
+    "success": false,
+    "original_prob": 0.9895985126495361,
+    "adversarial_prob": 0.9599658846855164,
+    "prob_shift": 0.029632627964019775,
+    "queries_used": 501,
+    "transforms": [
+      "T15"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 221.61693000793457
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999525547027588,
+    "adversarial_prob": 0.9999487400054932,
+    "prob_shift": 3.814697265625e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-126",
+    "source": "sard",
+    "time_sec": 211.48815488815308
+  },
+  {
+    "success": true,
+    "original_prob": 0.958491325378418,
+    "adversarial_prob": 0.4556271731853485,
+    "prob_shift": 0.5028641521930695,
+    "queries_used": 201,
+    "transforms": [
+      "T10",
+      "T15",
+      "T13",
+      "T6",
+      "T17",
+      "T13",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 84.17647099494934
+  },
+  {
+    "success": true,
+    "original_prob": 0.5172837376594543,
+    "adversarial_prob": 0.36985695362091064,
+    "prob_shift": 0.1474267840385437,
+    "queries_used": 41,
+    "transforms": [
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 17.2302348613739
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998542070388794,
+    "adversarial_prob": 0.9998069405555725,
+    "prob_shift": 4.7266483306884766e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T13",
+      "T2",
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 211.43072938919067
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999523162841797,
+    "adversarial_prob": 0.9999492168426514,
+    "prob_shift": 3.0994415283203125e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-127",
+    "source": "sard",
+    "time_sec": 204.49134063720703
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998769760131836,
+    "adversarial_prob": 0.9998679161071777,
+    "prob_shift": 9.059906005859375e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T5"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 203.15333223342896
+  },
+  {
+    "success": true,
+    "original_prob": 0.8826526403427124,
+    "adversarial_prob": 0.46997809410095215,
+    "prob_shift": 0.41267454624176025,
+    "queries_used": 21,
+    "transforms": [
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 8.363884210586548
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999380111694336,
+    "adversarial_prob": 0.9999321699142456,
+    "prob_shift": 5.841255187988281e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-191",
+    "source": "sard",
+    "time_sec": 203.35660982131958
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998973608016968,
+    "adversarial_prob": 0.9998849630355835,
+    "prob_shift": 1.239776611328125e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T5",
+      "T14",
+      "T3",
+      "T14",
+      "T15",
+      "T3",
+      "T7"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 212.5273334980011
+  },
+  {
+    "success": false,
+    "original_prob": 0.9997749924659729,
+    "adversarial_prob": 0.9995618462562561,
+    "prob_shift": 0.00021314620971679688,
+    "queries_used": 501,
+    "transforms": [
+      "T12",
+      "T10",
+      "T3",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 210.16196417808533
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999496936798096,
+    "adversarial_prob": 0.9999480247497559,
+    "prob_shift": 1.6689300537109375e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T15",
+      "T6",
+      "T6",
+      "T6"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-134",
+    "source": "sard",
+    "time_sec": 211.01354575157166
+  },
+  {
+    "success": true,
+    "original_prob": 0.7969478964805603,
+    "adversarial_prob": 0.43809327483177185,
+    "prob_shift": 0.35885462164878845,
+    "queries_used": 141,
+    "transforms": [
+      "T10",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 58.95819163322449
+  },
+  {
+    "success": false,
+    "original_prob": 0.999884843826294,
+    "adversarial_prob": 0.9998688697814941,
+    "prob_shift": 1.5974044799804688e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T13",
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 211.66756653785706
+  },
+  {
+    "success": true,
+    "original_prob": 0.7530374526977539,
+    "adversarial_prob": 0.4747166633605957,
+    "prob_shift": 0.2783207893371582,
+    "queries_used": 141,
+    "transforms": [
+      "T13",
+      "T15"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-787",
+    "source": "bigvul",
+    "time_sec": 59.47206354141235
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999392032623291,
+    "adversarial_prob": 0.9999357461929321,
+    "prob_shift": 3.4570693969726562e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-122",
+    "source": "sard",
+    "time_sec": 210.9753987789154
+  },
+  {
+    "success": false,
+    "original_prob": 0.9908164739608765,
+    "adversarial_prob": 0.777869701385498,
+    "prob_shift": 0.21294677257537842,
+    "queries_used": 501,
+    "transforms": [
+      "T10",
+      "T10",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-125",
+    "source": "bigvul",
+    "time_sec": 211.82403111457825
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999321699142456,
+    "adversarial_prob": 0.9999366998672485,
+    "prob_shift": -4.5299530029296875e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T17",
+      "T15",
+      "T17",
+      "T15"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-191",
+    "source": "sard",
+    "time_sec": 209.62099838256836
+  },
+  {
+    "success": true,
+    "original_prob": 0.9998779296875,
+    "adversarial_prob": 0.35639211535453796,
+    "prob_shift": 0.643485814332962,
+    "queries_used": 181,
+    "transforms": [
+      "T17",
+      "T15",
+      "T13",
+      "T12",
+      "T10",
+      "T2",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 75.50654530525208
+  },
+  {
+    "success": false,
+    "original_prob": 0.99993896484375,
+    "adversarial_prob": 0.9999301433563232,
+    "prob_shift": 8.821487426757812e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-134",
+    "source": "sard",
+    "time_sec": 210.60526728630066
+  },
+  {
+    "success": false,
+    "original_prob": 0.999943733215332,
+    "adversarial_prob": 0.9999375343322754,
+    "prob_shift": 6.198883056640625e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-122",
+    "source": "sard",
+    "time_sec": 211.06999254226685
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999510049819946,
+    "adversarial_prob": 0.9999443292617798,
+    "prob_shift": 6.67572021484375e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T18",
+      "T6",
+      "T5",
+      "T6"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-134",
+    "source": "sard",
+    "time_sec": 210.69689798355103
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999508857727051,
+    "adversarial_prob": 0.9999456405639648,
+    "prob_shift": 5.245208740234375e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T16"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-190",
+    "source": "sard",
+    "time_sec": 211.0738446712494
+  },
+  {
+    "success": true,
+    "original_prob": 0.6445263624191284,
+    "adversarial_prob": 0.19500887393951416,
+    "prob_shift": 0.44951748847961426,
+    "queries_used": 21,
+    "transforms": [
+      "T3",
+      "T3",
+      "T7",
+      "T12",
+      "T6",
+      "T7",
+      "T13",
+      "T18",
+      "T17",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 8.85371708869934
+  },
+  {
+    "success": true,
+    "original_prob": 0.9996705055236816,
+    "adversarial_prob": 0.2774731516838074,
+    "prob_shift": 0.7221973538398743,
+    "queries_used": 141,
+    "transforms": [
+      "T10",
+      "T10",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 59.36933350563049
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998196959495544,
+    "adversarial_prob": 0.9998584985733032,
+    "prob_shift": -3.88026237487793e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-190",
+    "source": "bigvul",
+    "time_sec": 210.7309217453003
+  },
+  {
+    "success": false,
+    "original_prob": 0.9206112623214722,
+    "adversarial_prob": 0.9030746221542358,
+    "prob_shift": 0.017536640167236328,
+    "queries_used": 501,
+    "transforms": [
+      "T2"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 213.62975478172302
+  },
+  {
+    "success": false,
+    "original_prob": 0.993678629398346,
+    "adversarial_prob": 0.9929608702659607,
+    "prob_shift": 0.0007177591323852539,
+    "queries_used": 501,
+    "transforms": [
+      "T14"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 210.68031477928162
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999384880065918,
+    "adversarial_prob": 0.9999299049377441,
+    "prob_shift": 8.58306884765625e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T10",
+      "T11"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-191",
+    "source": "sard",
+    "time_sec": 210.29587507247925
+  },
+  {
+    "success": true,
+    "original_prob": 0.6047362685203552,
+    "adversarial_prob": 0.44195064902305603,
+    "prob_shift": 0.1627856194972992,
+    "queries_used": 21,
+    "transforms": [
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 8.890803575515747
+  },
+  {
+    "success": false,
+    "original_prob": 0.9997482895851135,
+    "adversarial_prob": 0.9991926550865173,
+    "prob_shift": 0.0005556344985961914,
+    "queries_used": 501,
+    "transforms": [
+      "T10",
+      "T16",
+      "T10",
+      "T6",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 212.43926429748535
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999557733535767,
+    "adversarial_prob": 0.9999470710754395,
+    "prob_shift": 8.702278137207031e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T2",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-127",
+    "source": "sard",
+    "time_sec": 211.5925211906433
+  },
+  {
+    "success": false,
+    "original_prob": 0.9916501045227051,
+    "adversarial_prob": 0.9912537932395935,
+    "prob_shift": 0.00039631128311157227,
+    "queries_used": 501,
+    "transforms": [
+      "T7"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-787",
+    "source": "bigvul",
+    "time_sec": 210.97832894325256
+  },
+  {
+    "success": false,
+    "original_prob": 0.999822199344635,
+    "adversarial_prob": 0.9998297691345215,
+    "prob_shift": -7.569789886474609e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-191",
+    "source": "bigvul",
+    "time_sec": 212.38422656059265
+  },
+  {
+    "success": false,
+    "original_prob": 0.8748806715011597,
+    "adversarial_prob": 0.8748806715011597,
+    "prob_shift": 0.0,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 211.2173285484314
+  },
+  {
+    "success": true,
+    "original_prob": 0.9998583793640137,
+    "adversarial_prob": 0.01376713439822197,
+    "prob_shift": 0.9860912449657917,
+    "queries_used": 21,
+    "transforms": [
+      "T13",
+      "T9",
+      "T5",
+      "T10",
+      "T16"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "CWE-787",
+    "source": "bigvul",
+    "time_sec": 8.931988716125488
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999380111694336,
+    "adversarial_prob": 0.9999349117279053,
+    "prob_shift": 3.0994415283203125e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-122",
+    "source": "sard",
+    "time_sec": 210.72418689727783
+  },
+  {
+    "success": true,
+    "original_prob": 0.9840179085731506,
+    "adversarial_prob": 0.4125717878341675,
+    "prob_shift": 0.5714461207389832,
+    "queries_used": 301,
+    "transforms": [
+      "T13",
+      "T1",
+      "T10",
+      "T13",
+      "T13",
+      "T13",
+      "T1",
+      "T10",
+      "T13",
+      "T5"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 127.1436140537262
+  },
+  {
+    "success": true,
+    "original_prob": 0.9994407296180725,
+    "adversarial_prob": 0.4655039608478546,
+    "prob_shift": 0.5339367687702179,
+    "queries_used": 221,
+    "transforms": [
+      "T13",
+      "T17"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 92.90294814109802
+  },
+  {
+    "success": true,
+    "original_prob": 0.9294369220733643,
+    "adversarial_prob": 0.49028024077415466,
+    "prob_shift": 0.4391566812992096,
+    "queries_used": 261,
+    "transforms": [
+      "T10",
+      "T11"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 111.84496903419495
+  },
+  {
+    "success": false,
+    "original_prob": 0.9970762729644775,
+    "adversarial_prob": 0.9867992997169495,
+    "prob_shift": 0.010276973247528076,
+    "queries_used": 501,
+    "transforms": [
+      "T17",
+      "T7",
+      "T10",
+      "T7",
+      "T10",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-125",
+    "source": "bigvul",
+    "time_sec": 217.0059425830841
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999523162841797,
+    "adversarial_prob": 0.9999455213546753,
+    "prob_shift": 6.794929504394531e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T7"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-190",
+    "source": "sard",
+    "time_sec": 211.58395075798035
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998650550842285,
+    "adversarial_prob": 0.9998594522476196,
+    "prob_shift": 5.602836608886719e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T15"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 211.44383668899536
+  },
+  {
+    "success": false,
+    "original_prob": 0.6729198098182678,
+    "adversarial_prob": 0.6729198098182678,
+    "prob_shift": 0.0,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 210.28918075561523
+  },
+  {
+    "success": false,
+    "original_prob": 0.9995976090431213,
+    "adversarial_prob": 0.9997236132621765,
+    "prob_shift": -0.00012600421905517578,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-125",
+    "source": "bigvul",
+    "time_sec": 210.49087738990784
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998780488967896,
+    "adversarial_prob": 0.9998741149902344,
+    "prob_shift": 3.933906555175781e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T6"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "CWE-125",
+    "source": "bigvul",
+    "time_sec": 212.28269696235657
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998992681503296,
+    "adversarial_prob": 0.9998821020126343,
+    "prob_shift": 1.71661376953125e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T10",
+      "T10",
+      "T6"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 210.5208923816681
+  },
+  {
+    "success": true,
+    "original_prob": 0.565875232219696,
+    "adversarial_prob": 0.3413005471229553,
+    "prob_shift": 0.22457468509674072,
+    "queries_used": 21,
+    "transforms": [
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 8.877022743225098
+  },
+  {
+    "success": false,
+    "original_prob": 0.9994363188743591,
+    "adversarial_prob": 0.8588690161705017,
+    "prob_shift": 0.14056730270385742,
+    "queries_used": 501,
+    "transforms": [
+      "T10",
+      "T10",
+      "T7",
+      "T14",
+      "T10",
+      "T10",
+      "T14",
+      "T10",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 212.4879596233368
+  },
+  {
+    "success": false,
+    "original_prob": 0.9997983574867249,
+    "adversarial_prob": 0.9995711445808411,
+    "prob_shift": 0.00022721290588378906,
+    "queries_used": 501,
+    "transforms": [
+      "T11",
+      "T15",
+      "T9",
+      "T11",
+      "T11",
+      "T15",
+      "T11",
+      "T6"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "CWE-787",
+    "source": "bigvul",
+    "time_sec": 212.29157376289368
+  },
+  {
+    "success": true,
+    "original_prob": 0.9954513907432556,
+    "adversarial_prob": 0.48125213384628296,
+    "prob_shift": 0.5141992568969727,
+    "queries_used": 281,
+    "transforms": [
+      "T13",
+      "T10",
+      "T13",
+      "T16",
+      "T10",
+      "T7",
+      "T15",
+      "T13",
+      "T12",
+      "T11"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 122.1915717124939
+  },
+  {
+    "success": false,
+    "original_prob": 0.9989891648292542,
+    "adversarial_prob": 0.994453489780426,
+    "prob_shift": 0.004535675048828125,
+    "queries_used": 501,
+    "transforms": [
+      "T16",
+      "T8",
+      "T8",
+      "T2"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-787",
+    "source": "bigvul",
+    "time_sec": 214.051029920578
+  },
+  {
+    "success": true,
+    "original_prob": 0.9998795986175537,
+    "adversarial_prob": 0.006814056076109409,
+    "prob_shift": 0.9930655425414443,
+    "queries_used": 101,
+    "transforms": [
+      "T10",
+      "T1",
+      "T1",
+      "T13",
+      "T17",
+      "T18",
+      "T17"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 43.140066146850586
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999555349349976,
+    "adversarial_prob": 0.999948263168335,
+    "prob_shift": 7.271766662597656e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T16",
+      "T3",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-190",
+    "source": "sard",
+    "time_sec": 212.24788665771484
+  },
+  {
+    "success": true,
+    "original_prob": 0.9998502731323242,
+    "adversarial_prob": 0.09392078220844269,
+    "prob_shift": 0.9059294909238815,
+    "queries_used": 21,
+    "transforms": [
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 8.825872659683228
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998856782913208,
+    "adversarial_prob": 0.9998717308044434,
+    "prob_shift": 1.3947486877441406e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 208.19729208946228
+  },
+  {
+    "success": false,
+    "original_prob": 0.999951958656311,
+    "adversarial_prob": 0.999946117401123,
+    "prob_shift": 5.841255187988281e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-122",
+    "source": "sard",
+    "time_sec": 211.17680668830872
+  },
+  {
+    "success": false,
+    "original_prob": 0.998501181602478,
+    "adversarial_prob": 0.9989159107208252,
+    "prob_shift": -0.00041472911834716797,
+    "queries_used": 501,
+    "transforms": [
+      "T14",
+      "T10",
+      "T10",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 211.04402899742126
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998714923858643,
+    "adversarial_prob": 0.9998832941055298,
+    "prob_shift": -1.1801719665527344e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 209.24533128738403
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999572038650513,
+    "adversarial_prob": 0.9999514818191528,
+    "prob_shift": 5.7220458984375e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T10",
+      "T2"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-124",
+    "source": "sard",
+    "time_sec": 209.6135904788971
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998655319213867,
+    "adversarial_prob": 0.9998032450675964,
+    "prob_shift": 6.22868537902832e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T15",
+      "T17"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 212.67816877365112
+  },
+  {
+    "success": false,
+    "original_prob": 0.9996775388717651,
+    "adversarial_prob": 0.9996360540390015,
+    "prob_shift": 4.1484832763671875e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 210.85508012771606
+  },
+  {
+    "success": false,
+    "original_prob": 0.9434812664985657,
+    "adversarial_prob": 0.5003993511199951,
+    "prob_shift": 0.44308191537857056,
+    "queries_used": 501,
+    "transforms": [
+      "T7",
+      "T10",
+      "T10",
+      "T18",
+      "T16",
+      "T10",
+      "T4"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 212.6199972629547
+  },
+  {
+    "success": true,
+    "original_prob": 0.9991474151611328,
+    "adversarial_prob": 0.35269755125045776,
+    "prob_shift": 0.646449863910675,
+    "queries_used": 81,
+    "transforms": [
+      "T8",
+      "T5",
+      "T18",
+      "T13",
+      "T12",
+      "T10",
+      "T18",
+      "T13",
+      "T12",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 34.15425515174866
+  },
+  {
+    "success": true,
+    "original_prob": 0.9988272786140442,
+    "adversarial_prob": 0.023185065016150475,
+    "prob_shift": 0.9756422135978937,
+    "queries_used": 81,
+    "transforms": [
+      "T13",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 34.0737202167511
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999479055404663,
+    "adversarial_prob": 0.9999438524246216,
+    "prob_shift": 4.0531158447265625e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-369",
+    "source": "sard",
+    "time_sec": 210.98799324035645
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999512434005737,
+    "adversarial_prob": 0.9999479055404663,
+    "prob_shift": 3.337860107421875e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-190",
+    "source": "sard",
+    "time_sec": 211.6752827167511
+  },
+  {
+    "success": true,
+    "original_prob": 0.9993962049484253,
+    "adversarial_prob": 0.32400766015052795,
+    "prob_shift": 0.6753885447978973,
+    "queries_used": 61,
+    "transforms": [
+      "T17",
+      "T12",
+      "T7",
+      "T2",
+      "T5",
+      "T12",
+      "T16",
+      "T17"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 26.480241298675537
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999502897262573,
+    "adversarial_prob": 0.999947190284729,
+    "prob_shift": 3.0994415283203125e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-190",
+    "source": "sard",
+    "time_sec": 212.86372876167297
+  },
+  {
+    "success": true,
+    "original_prob": 0.633634626865387,
+    "adversarial_prob": 0.2004079818725586,
+    "prob_shift": 0.43322664499282837,
+    "queries_used": 21,
+    "transforms": [
+      "T17",
+      "T10",
+      "T2",
+      "T15",
+      "T14"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 8.974674940109253
+  },
+  {
+    "success": false,
+    "original_prob": 0.999936580657959,
+    "adversarial_prob": 0.9999322891235352,
+    "prob_shift": 4.291534423828125e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-127",
+    "source": "sard",
+    "time_sec": 211.03786444664001
+  },
+  {
+    "success": true,
+    "original_prob": 0.9998113512992859,
+    "adversarial_prob": 0.4730910360813141,
+    "prob_shift": 0.5267203152179718,
+    "queries_used": 221,
+    "transforms": [
+      "T17",
+      "T11",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 94.47620034217834
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998564720153809,
+    "adversarial_prob": 0.9998034834861755,
+    "prob_shift": 5.2988529205322266e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T10",
+      "T15",
+      "T14",
+      "T10",
+      "T18",
+      "T10",
+      "T15",
+      "T18",
+      "T3",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 212.67291522026062
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998946189880371,
+    "adversarial_prob": 0.9998869895935059,
+    "prob_shift": 7.62939453125e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 210.97932624816895
+  },
+  {
+    "success": false,
+    "original_prob": 0.8676784634590149,
+    "adversarial_prob": 0.8336616158485413,
+    "prob_shift": 0.03401684761047363,
+    "queries_used": 501,
+    "transforms": [
+      "T14",
+      "T6",
+      "T4",
+      "T6",
+      "T4",
+      "T4",
+      "T18"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 215.31373381614685
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998888969421387,
+    "adversarial_prob": 0.9998742341995239,
+    "prob_shift": 1.4662742614746094e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T5"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-125",
+    "source": "bigvul",
+    "time_sec": 214.5183506011963
+  },
+  {
+    "success": true,
+    "original_prob": 0.999864935874939,
+    "adversarial_prob": 0.25158989429473877,
+    "prob_shift": 0.7482750415802002,
+    "queries_used": 221,
+    "transforms": [
+      "T14",
+      "T17",
+      "T13",
+      "T14",
+      "T17",
+      "T17"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-125",
+    "source": "bigvul",
+    "time_sec": 93.15121269226074
+  },
+  {
+    "success": false,
+    "original_prob": 0.8121137619018555,
+    "adversarial_prob": 0.8121137619018555,
+    "prob_shift": 0.0,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 211.83120799064636
+  },
+  {
+    "success": true,
+    "original_prob": 0.9998602867126465,
+    "adversarial_prob": 0.019061719998717308,
+    "prob_shift": 0.9807985667139292,
+    "queries_used": 21,
+    "transforms": [
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 8.960161447525024
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999264478683472,
+    "adversarial_prob": 0.9999154806137085,
+    "prob_shift": 1.0967254638671875e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-125",
+    "source": "bigvul",
+    "time_sec": 211.9267966747284
+  },
+  {
+    "success": true,
+    "original_prob": 0.9811758399009705,
+    "adversarial_prob": 0.3859441578388214,
+    "prob_shift": 0.595231682062149,
+    "queries_used": 181,
+    "transforms": [
+      "T10",
+      "T16",
+      "T10",
+      "T18",
+      "T10",
+      "T10",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 78.20217871665955
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999409914016724,
+    "adversarial_prob": 0.9999316930770874,
+    "prob_shift": 9.298324584960938e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T10",
+      "T16",
+      "T3",
+      "T13",
+      "T1",
+      "T18"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-126",
+    "source": "sard",
+    "time_sec": 212.15946698188782
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998393058776855,
+    "adversarial_prob": 0.9998512268066406,
+    "prob_shift": -1.1920928955078125e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T15",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-476",
+    "source": "bigvul",
+    "time_sec": 211.26216578483582
+  },
+  {
+    "success": true,
+    "original_prob": 0.999910831451416,
+    "adversarial_prob": 0.4241933226585388,
+    "prob_shift": 0.5757175087928772,
+    "queries_used": 341,
+    "transforms": [
+      "T13",
+      "T15",
+      "T6",
+      "T13",
+      "T13",
+      "T1",
+      "T18",
+      "T6",
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-190",
+    "source": "bigvul",
+    "time_sec": 146.36229968070984
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998774528503418,
+    "adversarial_prob": 0.9998774528503418,
+    "prob_shift": 0.0,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-476",
+    "source": "bigvul",
+    "time_sec": 207.66158843040466
+  },
+  {
+    "success": true,
+    "original_prob": 0.7643309235572815,
+    "adversarial_prob": 0.4254152178764343,
+    "prob_shift": 0.33891570568084717,
+    "queries_used": 61,
+    "transforms": [
+      "T17"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 26.14338254928589
+  },
+  {
+    "success": true,
+    "original_prob": 0.5014339089393616,
+    "adversarial_prob": 0.013295814394950867,
+    "prob_shift": 0.4881380945444107,
+    "queries_used": 21,
+    "transforms": [
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 8.99471640586853
+  },
+  {
+    "success": false,
+    "original_prob": 0.6263483762741089,
+    "adversarial_prob": 0.5338903069496155,
+    "prob_shift": 0.09245806932449341,
+    "queries_used": 501,
+    "transforms": [
+      "T6"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 211.46414804458618
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998880624771118,
+    "adversarial_prob": 0.9998936653137207,
+    "prob_shift": -5.602836608886719e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-190",
+    "source": "bigvul",
+    "time_sec": 209.28685688972473
+  },
+  {
+    "success": true,
+    "original_prob": 0.9828329682350159,
+    "adversarial_prob": 0.46896329522132874,
+    "prob_shift": 0.5138696730136871,
+    "queries_used": 41,
+    "transforms": [
+      "T10",
+      "T15",
+      "T16",
+      "T1",
+      "T7",
+      "T7",
+      "T5",
+      "T17",
+      "T14"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 17.525258779525757
+  },
+  {
+    "success": true,
+    "original_prob": 0.9998632669448853,
+    "adversarial_prob": 0.495999813079834,
+    "prob_shift": 0.5038634538650513,
+    "queries_used": 121,
+    "transforms": [
+      "T17"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 49.77593779563904
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998281002044678,
+    "adversarial_prob": 0.9997984766960144,
+    "prob_shift": 2.962350845336914e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-125",
+    "source": "bigvul",
+    "time_sec": 208.9122018814087
+  },
+  {
+    "success": false,
+    "original_prob": 0.99993896484375,
+    "adversarial_prob": 0.9999276399612427,
+    "prob_shift": 1.1324882507324219e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-134",
+    "source": "sard",
+    "time_sec": 207.8042185306549
+  },
+  {
+    "success": false,
+    "original_prob": 0.9996169805526733,
+    "adversarial_prob": 0.9973300695419312,
+    "prob_shift": 0.0022869110107421875,
+    "queries_used": 501,
+    "transforms": [
+      "T10",
+      "T10",
+      "T15",
+      "T4",
+      "T8",
+      "T10",
+      "T10",
+      "T15",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "CWE-416",
+    "source": "bigvul",
+    "time_sec": 235.28120160102844
+  },
+  {
+    "success": true,
+    "original_prob": 0.6247695088386536,
+    "adversarial_prob": 0.17388767004013062,
+    "prob_shift": 0.45088183879852295,
+    "queries_used": 21,
+    "transforms": [
+      "T17"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 8.934388875961304
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999105930328369,
+    "adversarial_prob": 0.9998973608016968,
+    "prob_shift": 1.3232231140136719e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T5",
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-787",
+    "source": "bigvul",
+    "time_sec": 212.67487907409668
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999384880065918,
+    "adversarial_prob": 0.9999334812164307,
+    "prob_shift": 5.0067901611328125e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-122",
+    "source": "sard",
+    "time_sec": 211.51562070846558
+  },
+  {
+    "success": false,
+    "original_prob": 0.999825656414032,
+    "adversarial_prob": 0.9997493624687195,
+    "prob_shift": 7.62939453125e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T14",
+      "T5"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-190",
+    "source": "bigvul",
+    "time_sec": 210.72756814956665
+  },
+  {
+    "success": true,
+    "original_prob": 0.9959437251091003,
+    "adversarial_prob": 0.49867308139801025,
+    "prob_shift": 0.4972706437110901,
+    "queries_used": 381,
+    "transforms": [
+      "T17",
+      "T17",
+      "T18",
+      "T2",
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 159.6496193408966
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999045133590698,
+    "adversarial_prob": 0.9998949766159058,
+    "prob_shift": 9.5367431640625e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T17",
+      "T17"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 211.22904467582703
+  },
+  {
+    "success": false,
+    "original_prob": 0.9995830655097961,
+    "adversarial_prob": 0.9996374845504761,
+    "prob_shift": -5.441904067993164e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 207.65198469161987
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999557733535767,
+    "adversarial_prob": 0.9999521970748901,
+    "prob_shift": 3.5762786865234375e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T15",
+      "T9",
+      "T18",
+      "T6",
+      "T14"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-124",
+    "source": "sard",
+    "time_sec": 212.99523258209229
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999197721481323,
+    "adversarial_prob": 0.999869704246521,
+    "prob_shift": 5.0067901611328125e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T10",
+      "T8",
+      "T7",
+      "T12",
+      "T18",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-125",
+    "source": "bigvul",
+    "time_sec": 214.56923985481262
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998455047607422,
+    "adversarial_prob": 0.9998732805252075,
+    "prob_shift": -2.777576446533203e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T5"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 210.81611919403076
+  },
+  {
+    "success": true,
+    "original_prob": 0.9746544361114502,
+    "adversarial_prob": 0.07178844511508942,
+    "prob_shift": 0.9028659909963608,
+    "queries_used": 21,
+    "transforms": [
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 8.738653898239136
+  },
+  {
+    "success": false,
+    "original_prob": 0.7644595503807068,
+    "adversarial_prob": 0.57852703332901,
+    "prob_shift": 0.18593251705169678,
+    "queries_used": 501,
+    "transforms": [
+      "T10",
+      "T10",
+      "T2",
+      "T2"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 213.24875688552856
+  },
+  {
+    "success": true,
+    "original_prob": 0.9998729228973389,
+    "adversarial_prob": 0.3814934492111206,
+    "prob_shift": 0.6183794736862183,
+    "queries_used": 301,
+    "transforms": [
+      "T13",
+      "T5",
+      "T13",
+      "T13",
+      "T7",
+      "T13",
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 127.14140200614929
+  },
+  {
+    "success": false,
+    "original_prob": 0.7023653984069824,
+    "adversarial_prob": 0.7023653984069824,
+    "prob_shift": 0.0,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 209.7514796257019
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998311996459961,
+    "adversarial_prob": 0.9998347759246826,
+    "prob_shift": -3.5762786865234375e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T7"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-190",
+    "source": "bigvul",
+    "time_sec": 209.24329566955566
+  },
+  {
+    "success": false,
+    "original_prob": 0.993910551071167,
+    "adversarial_prob": 0.9182621240615845,
+    "prob_shift": 0.07564842700958252,
+    "queries_used": 501,
+    "transforms": [
+      "T10",
+      "T5",
+      "T17",
+      "T7",
+      "T5",
+      "T17",
+      "T7",
+      "T9",
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 222.40069031715393
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998631477355957,
+    "adversarial_prob": 0.9998561143875122,
+    "prob_shift": 7.033348083496094e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T17",
+      "T3",
+      "T17"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-416",
+    "source": "bigvul",
+    "time_sec": 208.96454000473022
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999537467956543,
+    "adversarial_prob": 0.9999493360519409,
+    "prob_shift": 4.410743713378906e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T15",
+      "T16",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-134",
+    "source": "sard",
+    "time_sec": 210.6422836780548
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999316930770874,
+    "adversarial_prob": 0.9999330043792725,
+    "prob_shift": -1.3113021850585938e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-190",
+    "source": "sard",
+    "time_sec": 209.94354104995728
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999560117721558,
+    "adversarial_prob": 0.9999512434005737,
+    "prob_shift": 4.76837158203125e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T2"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-122",
+    "source": "sard",
+    "time_sec": 211.71676874160767
+  },
+  {
+    "success": false,
+    "original_prob": 0.9997736811637878,
+    "adversarial_prob": 0.9997690320014954,
+    "prob_shift": 4.649162292480469e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-415",
+    "source": "bigvul",
+    "time_sec": 209.49203038215637
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998431205749512,
+    "adversarial_prob": 0.9998258948326111,
+    "prob_shift": 1.722574234008789e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-190",
+    "source": "bigvul",
+    "time_sec": 211.13818526268005
+  },
+  {
+    "success": true,
+    "original_prob": 0.8012415766716003,
+    "adversarial_prob": 0.4770006835460663,
+    "prob_shift": 0.32424089312553406,
+    "queries_used": 81,
+    "transforms": [
+      "T17",
+      "T15",
+      "T14",
+      "T17",
+      "T4",
+      "T15",
+      "T15",
+      "T15"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 33.84053063392639
+  },
+  {
+    "success": false,
+    "original_prob": 0.9976869821548462,
+    "adversarial_prob": 0.9976869821548462,
+    "prob_shift": 0.0,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-134",
+    "source": "bigvul",
+    "time_sec": 210.89616298675537
+  },
+  {
+    "success": true,
+    "original_prob": 0.9998366832733154,
+    "adversarial_prob": 0.07115143537521362,
+    "prob_shift": 0.9286852478981018,
+    "queries_used": 21,
+    "transforms": [
+      "T10",
+      "T17",
+      "T8",
+      "T16",
+      "T16"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-476",
+    "source": "bigvul",
+    "time_sec": 8.987115383148193
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999518394470215,
+    "adversarial_prob": 0.9999479055404663,
+    "prob_shift": 3.933906555175781e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-190",
+    "source": "sard",
+    "time_sec": 211.8182144165039
+  },
+  {
+    "success": true,
+    "original_prob": 0.6488701701164246,
+    "adversarial_prob": 0.4737228751182556,
+    "prob_shift": 0.17514729499816895,
+    "queries_used": 21,
+    "transforms": [
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 9.188977003097534
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999551773071289,
+    "adversarial_prob": 0.999945878982544,
+    "prob_shift": 9.298324584960938e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T8",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-134",
+    "source": "sard",
+    "time_sec": 209.45549845695496
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999054670333862,
+    "adversarial_prob": 0.9999055862426758,
+    "prob_shift": -1.1920928955078125e-07,
+    "queries_used": 501,
+    "transforms": [
+      "T7"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-190",
+    "source": "bigvul",
+    "time_sec": 211.60162043571472
+  },
+  {
+    "success": true,
+    "original_prob": 0.9998470544815063,
+    "adversarial_prob": 0.012871143408119678,
+    "prob_shift": 0.9869759110733867,
+    "queries_used": 21,
+    "transforms": [
+      "T14",
+      "T17",
+      "T5",
+      "T7",
+      "T17",
+      "T14"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-416",
+    "source": "bigvul",
+    "time_sec": 8.845165252685547
+  },
+  {
+    "success": true,
+    "original_prob": 0.5259997844696045,
+    "adversarial_prob": 0.09687720984220505,
+    "prob_shift": 0.42912257462739944,
+    "queries_used": 21,
+    "transforms": [
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 8.822410821914673
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999556541442871,
+    "adversarial_prob": 0.9999505281448364,
+    "prob_shift": 5.125999450683594e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-121",
+    "source": "sard",
+    "time_sec": 211.94178819656372
+  },
+  {
+    "success": true,
+    "original_prob": 0.6698683500289917,
+    "adversarial_prob": 0.4992198944091797,
+    "prob_shift": 0.170648455619812,
+    "queries_used": 81,
+    "transforms": [
+      "T13",
+      "T10",
+      "T1",
+      "T17",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 33.97305679321289
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998588562011719,
+    "adversarial_prob": 0.9998061060905457,
+    "prob_shift": 5.27501106262207e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T6",
+      "T6",
+      "T13",
+      "T7",
+      "T2",
+      "T1",
+      "T6",
+      "T6"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-190",
+    "source": "bigvul",
+    "time_sec": 210.19714045524597
+  },
+  {
+    "success": false,
+    "original_prob": 0.8976438045501709,
+    "adversarial_prob": 0.5577723979949951,
+    "prob_shift": 0.3398714065551758,
+    "queries_used": 501,
+    "transforms": [
+      "T5",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-787",
+    "source": "bigvul",
+    "time_sec": 209.08529686927795
+  },
+  {
+    "success": false,
+    "original_prob": 0.8327544331550598,
+    "adversarial_prob": 0.7341011762619019,
+    "prob_shift": 0.09865325689315796,
+    "queries_used": 501,
+    "transforms": [
+      "T15",
+      "T16",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-787",
+    "source": "bigvul",
+    "time_sec": 208.3765890598297
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998695850372314,
+    "adversarial_prob": 0.9997856020927429,
+    "prob_shift": 8.398294448852539e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T7",
+      "T12",
+      "T15",
+      "T13",
+      "T5",
+      "T10",
+      "T12",
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 200.0816593170166
+  },
+  {
+    "success": true,
+    "original_prob": 0.9998723268508911,
+    "adversarial_prob": 0.45995578169822693,
+    "prob_shift": 0.5399165451526642,
+    "queries_used": 261,
+    "transforms": [
+      "T13",
+      "T3",
+      "T8",
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-476",
+    "source": "bigvul",
+    "time_sec": 81.85904550552368
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999450445175171,
+    "adversarial_prob": 0.9999420642852783,
+    "prob_shift": 2.9802322387695312e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-190",
+    "source": "sard",
+    "time_sec": 155.8881573677063
+  },
+  {
+    "success": true,
+    "original_prob": 0.9534153938293457,
+    "adversarial_prob": 0.4651990234851837,
+    "prob_shift": 0.488216370344162,
+    "queries_used": 41,
+    "transforms": [
+      "T3",
+      "T11",
+      "T13",
+      "T1",
+      "T4",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 12.733928442001343
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998787641525269,
+    "adversarial_prob": 0.9998787641525269,
+    "prob_shift": 0.0,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 159.31923007965088
+  },
+  {
+    "success": false,
+    "original_prob": 0.8438391089439392,
+    "adversarial_prob": 0.7052961587905884,
+    "prob_shift": 0.13854295015335083,
+    "queries_used": 501,
+    "transforms": [
+      "T7",
+      "T3",
+      "T11",
+      "T11",
+      "T3",
+      "T14"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-476",
+    "source": "bigvul",
+    "time_sec": 158.78082489967346
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998675584793091,
+    "adversarial_prob": 0.9998587369918823,
+    "prob_shift": 8.821487426757812e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 157.47689414024353
+  },
+  {
+    "success": true,
+    "original_prob": 0.9979565143585205,
+    "adversarial_prob": 0.30571991205215454,
+    "prob_shift": 0.692236602306366,
+    "queries_used": 301,
+    "transforms": [
+      "T10",
+      "T10",
+      "T10",
+      "T10",
+      "T10",
+      "T10",
+      "T10",
+      "T10",
+      "T10",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 94.99317383766174
+  },
+  {
+    "success": true,
+    "original_prob": 0.9430059790611267,
+    "adversarial_prob": 0.10585036128759384,
+    "prob_shift": 0.8371556177735329,
+    "queries_used": 221,
+    "transforms": [
+      "T17",
+      "T4",
+      "T13",
+      "T13",
+      "T2",
+      "T8",
+      "T2",
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 70.2801160812378
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998462200164795,
+    "adversarial_prob": 0.9998451471328735,
+    "prob_shift": 1.0728836059570312e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T14"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-787",
+    "source": "bigvul",
+    "time_sec": 160.04154348373413
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999570846557617,
+    "adversarial_prob": 0.9999490976333618,
+    "prob_shift": 7.987022399902344e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T10",
+      "T4",
+      "T2"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-134",
+    "source": "sard",
+    "time_sec": 158.3757836818695
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999396800994873,
+    "adversarial_prob": 0.9999349117279053,
+    "prob_shift": 4.76837158203125e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T6"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-121",
+    "source": "sard",
+    "time_sec": 157.35308194160461
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998522996902466,
+    "adversarial_prob": 0.9998418092727661,
+    "prob_shift": 1.049041748046875e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T10",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-416",
+    "source": "bigvul",
+    "time_sec": 156.49614334106445
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998970031738281,
+    "adversarial_prob": 0.8135080933570862,
+    "prob_shift": 0.18638890981674194,
+    "queries_used": 501,
+    "transforms": [
+      "T14",
+      "T13",
+      "T11",
+      "T5",
+      "T6",
+      "T13",
+      "T5"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 159.866112947464
+  },
+  {
+    "success": false,
+    "original_prob": 0.9997910857200623,
+    "adversarial_prob": 0.9996210336685181,
+    "prob_shift": 0.00017005205154418945,
+    "queries_used": 501,
+    "transforms": [
+      "T6",
+      "T12",
+      "T1",
+      "T2",
+      "T1",
+      "T7",
+      "T17",
+      "T15",
+      "T7",
+      "T15"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "CWE-125",
+    "source": "bigvul",
+    "time_sec": 156.3008131980896
+  },
+  {
+    "success": false,
+    "original_prob": 0.9995636343955994,
+    "adversarial_prob": 0.9977090358734131,
+    "prob_shift": 0.0018545985221862793,
+    "queries_used": 501,
+    "transforms": [
+      "T6",
+      "T18",
+      "T5",
+      "T9",
+      "T10",
+      "T6",
+      "T6",
+      "T5",
+      "T9",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 178.13607120513916
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998512268066406,
+    "adversarial_prob": 0.9998403787612915,
+    "prob_shift": 1.0848045349121094e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T7",
+      "T14",
+      "T15"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 157.79740953445435
+  },
+  {
+    "success": true,
+    "original_prob": 0.5547899603843689,
+    "adversarial_prob": 0.20661887526512146,
+    "prob_shift": 0.34817108511924744,
+    "queries_used": 21,
+    "transforms": [
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-415",
+    "source": "bigvul",
+    "time_sec": 6.489418268203735
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999017715454102,
+    "adversarial_prob": 0.9997711777687073,
+    "prob_shift": 0.00013059377670288086,
+    "queries_used": 501,
+    "transforms": [
+      "T16",
+      "T6",
+      "T18",
+      "T10",
+      "T10",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 157.50780320167542
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998779296875,
+    "adversarial_prob": 0.999859094619751,
+    "prob_shift": 1.8835067749023438e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T17"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-125",
+    "source": "bigvul",
+    "time_sec": 156.04719614982605
+  },
+  {
+    "success": true,
+    "original_prob": 0.5036587119102478,
+    "adversarial_prob": 0.04024995118379593,
+    "prob_shift": 0.4634087607264519,
+    "queries_used": 21,
+    "transforms": [
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 6.481820106506348
+  },
+  {
+    "success": true,
+    "original_prob": 0.5032970309257507,
+    "adversarial_prob": 0.3673762381076813,
+    "prob_shift": 0.13592079281806946,
+    "queries_used": 21,
+    "transforms": [
+      "T15"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-787",
+    "source": "bigvul",
+    "time_sec": 6.585678815841675
+  },
+  {
+    "success": true,
+    "original_prob": 0.9998980760574341,
+    "adversarial_prob": 0.07972801476716995,
+    "prob_shift": 0.9201700612902641,
+    "queries_used": 281,
+    "transforms": [
+      "T10",
+      "T17",
+      "T13",
+      "T1",
+      "T17",
+      "T13",
+      "T17",
+      "T17"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 87.4447112083435
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998412132263184,
+    "adversarial_prob": 0.999789297580719,
+    "prob_shift": 5.1915645599365234e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T15",
+      "T4",
+      "T12",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 156.81727504730225
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999566078186035,
+    "adversarial_prob": 0.999953031539917,
+    "prob_shift": 3.5762786865234375e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-122",
+    "source": "sard",
+    "time_sec": 158.1254391670227
+  },
+  {
+    "success": false,
+    "original_prob": 0.9932250380516052,
+    "adversarial_prob": 0.9768070578575134,
+    "prob_shift": 0.016417980194091797,
+    "queries_used": 501,
+    "transforms": [
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-125",
+    "source": "bigvul",
+    "time_sec": 162.68139743804932
+  },
+  {
+    "success": false,
+    "original_prob": 0.9368061423301697,
+    "adversarial_prob": 0.8285328149795532,
+    "prob_shift": 0.10827332735061646,
+    "queries_used": 501,
+    "transforms": [
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-476",
+    "source": "bigvul",
+    "time_sec": 159.77928066253662
+  },
+  {
+    "success": false,
+    "original_prob": 0.8722711205482483,
+    "adversarial_prob": 0.8129330277442932,
+    "prob_shift": 0.05933809280395508,
+    "queries_used": 501,
+    "transforms": [
+      "T7"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 158.39040184020996
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998338222503662,
+    "adversarial_prob": 0.9997486472129822,
+    "prob_shift": 8.51750373840332e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T1",
+      "T15",
+      "T16",
+      "T14",
+      "T15",
+      "T16",
+      "T14"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-190",
+    "source": "bigvul",
+    "time_sec": 157.53683376312256
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998989105224609,
+    "adversarial_prob": 0.999818742275238,
+    "prob_shift": 8.016824722290039e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T6",
+      "T17"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 157.59222769737244
+  },
+  {
+    "success": false,
+    "original_prob": 0.9985529780387878,
+    "adversarial_prob": 0.9350301623344421,
+    "prob_shift": 0.0635228157043457,
+    "queries_used": 501,
+    "transforms": [
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 156.9211070537567
+  },
+  {
+    "success": true,
+    "original_prob": 0.7471382021903992,
+    "adversarial_prob": 0.33848074078559875,
+    "prob_shift": 0.4086574614048004,
+    "queries_used": 21,
+    "transforms": [
+      "T8",
+      "T8",
+      "T7",
+      "T16",
+      "T17",
+      "T5",
+      "T16",
+      "T14",
+      "T12",
+      "T9"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 6.585822582244873
+  },
+  {
+    "success": false,
+    "original_prob": 0.999954104423523,
+    "adversarial_prob": 0.9999483823776245,
+    "prob_shift": 5.7220458984375e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T6"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-416",
+    "source": "sard",
+    "time_sec": 157.3395369052887
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998294115066528,
+    "adversarial_prob": 0.999836802482605,
+    "prob_shift": -7.3909759521484375e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T6",
+      "T13",
+      "T12"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 156.51484870910645
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999566078186035,
+    "adversarial_prob": 0.9999520778656006,
+    "prob_shift": 4.5299530029296875e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-122",
+    "source": "sard",
+    "time_sec": 156.19418334960938
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999268054962158,
+    "adversarial_prob": 0.9999309778213501,
+    "prob_shift": -4.172325134277344e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-190",
+    "source": "sard",
+    "time_sec": 155.51420783996582
+  },
+  {
+    "success": false,
+    "original_prob": 0.6202744841575623,
+    "adversarial_prob": 0.6202744841575623,
+    "prob_shift": 0.0,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 156.69887232780457
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999477863311768,
+    "adversarial_prob": 0.9999401569366455,
+    "prob_shift": 7.62939453125e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-121",
+    "source": "sard",
+    "time_sec": 156.53183817863464
+  },
+  {
+    "success": true,
+    "original_prob": 0.6467520594596863,
+    "adversarial_prob": 0.1298563927412033,
+    "prob_shift": 0.516895666718483,
+    "queries_used": 21,
+    "transforms": [
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "CWE-416",
+    "source": "bigvul",
+    "time_sec": 6.515137434005737
+  },
+  {
+    "success": false,
+    "original_prob": 0.999619722366333,
+    "adversarial_prob": 0.9998190999031067,
+    "prob_shift": -0.00019937753677368164,
+    "queries_used": 501,
+    "transforms": [
+      "T10",
+      "T7"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 156.19138646125793
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998915195465088,
+    "adversarial_prob": 0.999914288520813,
+    "prob_shift": -2.276897430419922e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 156.63956999778748
+  },
+  {
+    "success": true,
+    "original_prob": 0.7861443758010864,
+    "adversarial_prob": 0.1741182506084442,
+    "prob_shift": 0.6120261251926422,
+    "queries_used": 21,
+    "transforms": [
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 6.507036209106445
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998931884765625,
+    "adversarial_prob": 0.9992177486419678,
+    "prob_shift": 0.0006754398345947266,
+    "queries_used": 501,
+    "transforms": [
+      "T6",
+      "T10",
+      "T4",
+      "T3",
+      "T13",
+      "T9",
+      "T10",
+      "T10",
+      "T3",
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 157.65496158599854
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999473094940186,
+    "adversarial_prob": 0.99993896484375,
+    "prob_shift": 8.344650268554688e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-190",
+    "source": "sard",
+    "time_sec": 156.41083550453186
+  },
+  {
+    "success": true,
+    "original_prob": 0.6743971705436707,
+    "adversarial_prob": 0.38713183999061584,
+    "prob_shift": 0.2872653305530548,
+    "queries_used": 61,
+    "transforms": [
+      "T14",
+      "T18",
+      "T14",
+      "T17"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 19.039735794067383
+  },
+  {
+    "success": true,
+    "original_prob": 0.8575499057769775,
+    "adversarial_prob": 0.12229672819375992,
+    "prob_shift": 0.7352531775832176,
+    "queries_used": 161,
+    "transforms": [
+      "T17",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 50.32335829734802
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999589920043945,
+    "adversarial_prob": 0.9999526739120483,
+    "prob_shift": 6.318092346191406e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T4"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-122",
+    "source": "sard",
+    "time_sec": 157.47605109214783
+  },
+  {
+    "success": true,
+    "original_prob": 0.5919005274772644,
+    "adversarial_prob": 0.030115852132439613,
+    "prob_shift": 0.5617846753448248,
+    "queries_used": 21,
+    "transforms": [
+      "T2",
+      "T11",
+      "T5",
+      "T15",
+      "T3",
+      "T2",
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 6.479445695877075
+  },
+  {
+    "success": false,
+    "original_prob": 0.9960938096046448,
+    "adversarial_prob": 0.9495280981063843,
+    "prob_shift": 0.0465657114982605,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 156.34147787094116
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999313354492188,
+    "adversarial_prob": 0.9999270439147949,
+    "prob_shift": 4.291534423828125e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-190",
+    "source": "sard",
+    "time_sec": 156.01245522499084
+  },
+  {
+    "success": false,
+    "original_prob": 0.9785918593406677,
+    "adversarial_prob": 0.6711698770523071,
+    "prob_shift": 0.3074219822883606,
+    "queries_used": 501,
+    "transforms": [
+      "T7",
+      "T10",
+      "T10",
+      "T5",
+      "T10",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 156.690847158432
+  },
+  {
+    "success": false,
+    "original_prob": 0.9714726209640503,
+    "adversarial_prob": 0.9707658290863037,
+    "prob_shift": 0.000706791877746582,
+    "queries_used": 501,
+    "transforms": [
+      "T6"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 157.18362998962402
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998043179512024,
+    "adversarial_prob": 0.9950847029685974,
+    "prob_shift": 0.0047196149826049805,
+    "queries_used": 501,
+    "transforms": [
+      "T17"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 155.82894611358643
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998985528945923,
+    "adversarial_prob": 0.9999016523361206,
+    "prob_shift": -3.0994415283203125e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T10",
+      "T10",
+      "T12",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 156.58190250396729
+  },
+  {
+    "success": true,
+    "original_prob": 0.5863282680511475,
+    "adversarial_prob": 0.03787759318947792,
+    "prob_shift": 0.5484506748616695,
+    "queries_used": 21,
+    "transforms": [
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 6.625478267669678
+  },
+  {
+    "success": false,
+    "original_prob": 0.9673059582710266,
+    "adversarial_prob": 0.8242529034614563,
+    "prob_shift": 0.1430530548095703,
+    "queries_used": 501,
+    "transforms": [
+      "T17",
+      "T8",
+      "T17",
+      "T7",
+      "T18",
+      "T1",
+      "T7"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 157.85630798339844
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998962879180908,
+    "adversarial_prob": 0.9998893737792969,
+    "prob_shift": 6.9141387939453125e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T17",
+      "T16",
+      "T4",
+      "T8",
+      "T17",
+      "T3"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 157.73823404312134
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998811483383179,
+    "adversarial_prob": 0.9998724460601807,
+    "prob_shift": 8.702278137207031e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T13",
+      "T16",
+      "T13",
+      "T8",
+      "T13",
+      "T2",
+      "T13",
+      "T8",
+      "T13",
+      "T2"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 157.45897269248962
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999080896377563,
+    "adversarial_prob": 0.9998461008071899,
+    "prob_shift": 6.198883056640625e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T10",
+      "T7",
+      "T13",
+      "T14",
+      "T4",
+      "T14",
+      "T13",
+      "T7",
+      "T13",
+      "T14"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 158.41564440727234
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998602867126465,
+    "adversarial_prob": 0.5076384544372559,
+    "prob_shift": 0.4922218322753906,
+    "queries_used": 501,
+    "transforms": [
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-476",
+    "source": "bigvul",
+    "time_sec": 159.1993260383606
+  },
+  {
+    "success": true,
+    "original_prob": 0.9998894929885864,
+    "adversarial_prob": 0.002959534293040633,
+    "prob_shift": 0.9969299586955458,
+    "queries_used": 181,
+    "transforms": [
+      "T3",
+      "T12",
+      "T13",
+      "T13",
+      "T5",
+      "T12",
+      "T14",
+      "T13",
+      "T13",
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 56.73547005653381
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998618364334106,
+    "adversarial_prob": 0.9998387098312378,
+    "prob_shift": 2.3126602172851562e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "CWE-190",
+    "source": "bigvul",
+    "time_sec": 159.01210641860962
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999005794525146,
+    "adversarial_prob": 0.9998815059661865,
+    "prob_shift": 1.9073486328125e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T13",
+      "T9",
+      "T5",
+      "T3",
+      "T13",
+      "T4"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "CWE-125",
+    "source": "bigvul",
+    "time_sec": 157.4515142440796
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999089241027832,
+    "adversarial_prob": 0.9999079704284668,
+    "prob_shift": 9.5367431640625e-07,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-191",
+    "source": "sard",
+    "time_sec": 156.2356414794922
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999150037765503,
+    "adversarial_prob": 0.9998142123222351,
+    "prob_shift": 0.00010079145431518555,
+    "queries_used": 501,
+    "transforms": [
+      "T10",
+      "T10",
+      "T18"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 157.6491084098816
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999312162399292,
+    "adversarial_prob": 0.9999327659606934,
+    "prob_shift": -1.5497207641601562e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-190",
+    "source": "sard",
+    "time_sec": 155.89789462089539
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999024868011475,
+    "adversarial_prob": 0.9998961687088013,
+    "prob_shift": 6.318092346191406e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T5"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 157.03369569778442
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998949766159058,
+    "adversarial_prob": 0.9998714923858643,
+    "prob_shift": 2.3484230041503906e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T13",
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 158.4583911895752
+  },
+  {
+    "success": true,
+    "original_prob": 0.999855637550354,
+    "adversarial_prob": 0.14282815158367157,
+    "prob_shift": 0.8570274859666824,
+    "queries_used": 21,
+    "transforms": [
+      "T17"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 6.589126110076904
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998055100440979,
+    "adversarial_prob": 0.99977046251297,
+    "prob_shift": 3.504753112792969e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T5",
+      "T1",
+      "T11",
+      "T6",
+      "T14",
+      "T6"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-190",
+    "source": "bigvul",
+    "time_sec": 156.9686245918274
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999567270278931,
+    "adversarial_prob": 0.9999480247497559,
+    "prob_shift": 8.702278137207031e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T5",
+      "T1",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-124",
+    "source": "sard",
+    "time_sec": 156.11351132392883
+  },
+  {
+    "success": false,
+    "original_prob": 0.9978318810462952,
+    "adversarial_prob": 0.9551905989646912,
+    "prob_shift": 0.042641282081604004,
+    "queries_used": 501,
+    "transforms": [
+      "T10",
+      "T10",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 156.7356879711151
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999606609344482,
+    "adversarial_prob": 0.9998568296432495,
+    "prob_shift": 0.00010383129119873047,
+    "queries_used": 501,
+    "transforms": [
+      "T13",
+      "T13",
+      "T10",
+      "T13",
+      "T10",
+      "T2",
+      "T13",
+      "T8",
+      "T13",
+      "T17"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-126",
+    "source": "sard",
+    "time_sec": 156.20770978927612
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998425245285034,
+    "adversarial_prob": 0.9135881066322327,
+    "prob_shift": 0.08625441789627075,
+    "queries_used": 501,
+    "transforms": [
+      "T13",
+      "T17",
+      "T4",
+      "T10",
+      "T17",
+      "T7",
+      "T13",
+      "T7"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-125",
+    "source": "bigvul",
+    "time_sec": 159.90728855133057
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998669624328613,
+    "adversarial_prob": 0.9998610019683838,
+    "prob_shift": 5.9604644775390625e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T13",
+      "T4",
+      "T2"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 157.27522993087769
+  },
+  {
+    "success": false,
+    "original_prob": 0.960870623588562,
+    "adversarial_prob": 0.9074066877365112,
+    "prob_shift": 0.05346393585205078,
+    "queries_used": 501,
+    "transforms": [
+      "T10",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 155.6134157180786
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998921155929565,
+    "adversarial_prob": 0.9998847246170044,
+    "prob_shift": 7.3909759521484375e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T13",
+      "T3",
+      "T14"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-416",
+    "source": "bigvul",
+    "time_sec": 156.18903398513794
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998600482940674,
+    "adversarial_prob": 0.9998297691345215,
+    "prob_shift": 3.0279159545898438e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T17"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 157.3221778869629
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998965263366699,
+    "adversarial_prob": 0.9998875856399536,
+    "prob_shift": 8.940696716308594e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T14",
+      "T13",
+      "T6",
+      "T14",
+      "T16",
+      "T4",
+      "T9",
+      "T16"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-415",
+    "source": "bigvul",
+    "time_sec": 156.6031129360199
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999531507492065,
+    "adversarial_prob": 0.9999523162841797,
+    "prob_shift": 8.344650268554688e-07,
+    "queries_used": 501,
+    "transforms": [
+      "T6"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-134",
+    "source": "sard",
+    "time_sec": 156.37293910980225
+  },
+  {
+    "success": false,
+    "original_prob": 0.999895453453064,
+    "adversarial_prob": 0.9998806715011597,
+    "prob_shift": 1.4781951904296875e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T3",
+      "T4",
+      "T12",
+      "T13",
+      "T6",
+      "T7",
+      "T15"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 157.29696416854858
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998838901519775,
+    "adversarial_prob": 0.999879002571106,
+    "prob_shift": 4.887580871582031e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-787",
+    "source": "bigvul",
+    "time_sec": 156.5476803779602
+  },
+  {
+    "success": true,
+    "original_prob": 0.9827561378479004,
+    "adversarial_prob": 0.4590775668621063,
+    "prob_shift": 0.5236785709857941,
+    "queries_used": 61,
+    "transforms": [
+      "T17"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 19.4063823223114
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999500513076782,
+    "adversarial_prob": 0.9999481439590454,
+    "prob_shift": 1.9073486328125e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-134",
+    "source": "sard",
+    "time_sec": 155.69157338142395
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999558925628662,
+    "adversarial_prob": 0.9999514818191528,
+    "prob_shift": 4.410743713378906e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T16",
+      "T15"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-191",
+    "source": "sard",
+    "time_sec": 156.41661953926086
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999247789382935,
+    "adversarial_prob": 0.9998512268066406,
+    "prob_shift": 7.355213165283203e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T16",
+      "T13",
+      "T13",
+      "T16",
+      "T13",
+      "T13",
+      "T13",
+      "T13",
+      "T13",
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 156.57574105262756
+  },
+  {
+    "success": false,
+    "original_prob": 0.9928446412086487,
+    "adversarial_prob": 0.9671496152877808,
+    "prob_shift": 0.02569502592086792,
+    "queries_used": 501,
+    "transforms": [
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 157.10759663581848
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998893737792969,
+    "adversarial_prob": 0.9998893737792969,
+    "prob_shift": 0.0,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-125",
+    "source": "bigvul",
+    "time_sec": 156.2470064163208
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998076558113098,
+    "adversarial_prob": 0.9997679591178894,
+    "prob_shift": 3.9696693420410156e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T10",
+      "T2",
+      "T5",
+      "T6",
+      "T1",
+      "T11"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-125",
+    "source": "bigvul",
+    "time_sec": 156.44500422477722
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999456405639648,
+    "adversarial_prob": 0.9999293088912964,
+    "prob_shift": 1.633167266845703e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T6",
+      "T15"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-121",
+    "source": "sard",
+    "time_sec": 155.94091391563416
+  },
+  {
+    "success": false,
+    "original_prob": 0.9719752669334412,
+    "adversarial_prob": 0.8549615144729614,
+    "prob_shift": 0.11701375246047974,
+    "queries_used": 501,
+    "transforms": [
+      "T10",
+      "T13",
+      "T10",
+      "T16",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 171.25011038780212
+  },
+  {
+    "success": true,
+    "original_prob": 0.6760650873184204,
+    "adversarial_prob": 0.49959656596183777,
+    "prob_shift": 0.17646852135658264,
+    "queries_used": 21,
+    "transforms": [
+      "T4",
+      "T6",
+      "T17",
+      "T12"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 6.582916975021362
+  },
+  {
+    "success": true,
+    "original_prob": 0.9933587908744812,
+    "adversarial_prob": 0.22505639493465424,
+    "prob_shift": 0.768302395939827,
+    "queries_used": 61,
+    "transforms": [
+      "T10",
+      "T17",
+      "T10",
+      "T17",
+      "T9",
+      "T8",
+      "T11",
+      "T14",
+      "T14"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 19.112852573394775
+  },
+  {
+    "success": true,
+    "original_prob": 0.7648468613624573,
+    "adversarial_prob": 0.29136961698532104,
+    "prob_shift": 0.47347724437713623,
+    "queries_used": 61,
+    "transforms": [
+      "T14",
+      "T13",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 19.060426950454712
+  },
+  {
+    "success": true,
+    "original_prob": 0.9720026254653931,
+    "adversarial_prob": 0.4057725667953491,
+    "prob_shift": 0.566230058670044,
+    "queries_used": 261,
+    "transforms": [
+      "T8",
+      "T10",
+      "T11",
+      "T10",
+      "T10",
+      "T10",
+      "T10",
+      "T11",
+      "T10",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 81.26848530769348
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999324083328247,
+    "adversarial_prob": 0.9999297857284546,
+    "prob_shift": 2.6226043701171875e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-121",
+    "source": "sard",
+    "time_sec": 156.04092168807983
+  },
+  {
+    "success": true,
+    "original_prob": 0.9993902444839478,
+    "adversarial_prob": 0.41638243198394775,
+    "prob_shift": 0.5830078125,
+    "queries_used": 101,
+    "transforms": [
+      "T8",
+      "T10",
+      "T1",
+      "T10",
+      "T10",
+      "T1",
+      "T8",
+      "T5",
+      "T14"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 33.457887172698975
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998691082000732,
+    "adversarial_prob": 0.9998633861541748,
+    "prob_shift": 5.7220458984375e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T5"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNSAT",
+    "exploit_preserved": null,
+    "cwe": "CWE-125",
+    "source": "bigvul",
+    "time_sec": 156.6084361076355
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998501539230347,
+    "adversarial_prob": 0.9998522996902466,
+    "prob_shift": -2.1457672119140625e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-416",
+    "source": "bigvul",
+    "time_sec": 155.65856862068176
+  },
+  {
+    "success": false,
+    "original_prob": 0.999854326248169,
+    "adversarial_prob": 0.9998243451118469,
+    "prob_shift": 2.9981136322021484e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T13",
+      "T9",
+      "T12",
+      "T11",
+      "T7",
+      "T18"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-125",
+    "source": "bigvul",
+    "time_sec": 156.63405871391296
+  },
+  {
+    "success": false,
+    "original_prob": 0.999907374382019,
+    "adversarial_prob": 0.9998940229415894,
+    "prob_shift": 1.33514404296875e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T5"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 155.52151489257812
+  },
+  {
+    "success": true,
+    "original_prob": 0.9826433062553406,
+    "adversarial_prob": 0.005381715949624777,
+    "prob_shift": 0.9772615903057158,
+    "queries_used": 21,
+    "transforms": [
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 6.539552450180054
+  },
+  {
+    "success": false,
+    "original_prob": 0.9997460246086121,
+    "adversarial_prob": 0.5015413165092468,
+    "prob_shift": 0.49820470809936523,
+    "queries_used": 501,
+    "transforms": [
+      "T10",
+      "T7"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-415",
+    "source": "bigvul",
+    "time_sec": 154.98172783851624
+  },
+  {
+    "success": true,
+    "original_prob": 0.5437062382698059,
+    "adversarial_prob": 0.42341348528862,
+    "prob_shift": 0.12029275298118591,
+    "queries_used": 21,
+    "transforms": [
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 6.627506256103516
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999529123306274,
+    "adversarial_prob": 0.9999499320983887,
+    "prob_shift": 2.9802322387695312e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T14"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-127",
+    "source": "sard",
+    "time_sec": 156.10726881027222
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999555349349976,
+    "adversarial_prob": 0.9999513626098633,
+    "prob_shift": 4.172325134277344e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T5"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-127",
+    "source": "sard",
+    "time_sec": 155.8487033843994
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999604225158691,
+    "adversarial_prob": 0.9999531507492065,
+    "prob_shift": 7.271766662597656e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T13",
+      "T10"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-457",
+    "source": "sard",
+    "time_sec": 155.17620658874512
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998874664306641,
+    "adversarial_prob": 0.9995960593223572,
+    "prob_shift": 0.00029140710830688477,
+    "queries_used": 501,
+    "transforms": [
+      "T10",
+      "T10",
+      "T10",
+      "T3",
+      "T15",
+      "T10",
+      "T3",
+      "T10",
+      "T3",
+      "T3"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 155.3573956489563
+  },
+  {
+    "success": false,
+    "original_prob": 0.998119056224823,
+    "adversarial_prob": 0.7026402354240417,
+    "prob_shift": 0.29547882080078125,
+    "queries_used": 501,
+    "transforms": [
+      "T17",
+      "T6",
+      "T17",
+      "T14",
+      "T17",
+      "T6",
+      "T17",
+      "T14",
+      "T14",
+      "T17"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 156.57690620422363
+  },
+  {
+    "success": false,
+    "original_prob": 0.8295626640319824,
+    "adversarial_prob": 0.650119960308075,
+    "prob_shift": 0.17944270372390747,
+    "queries_used": 501,
+    "transforms": [
+      "T16",
+      "T2",
+      "T14",
+      "T11",
+      "T15",
+      "T10",
+      "T4"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "",
+    "source": "devign",
+    "time_sec": 157.0891764163971
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998791217803955,
+    "adversarial_prob": 0.9998718500137329,
+    "prob_shift": 7.271766662597656e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T1",
+      "T12",
+      "T12",
+      "T13",
+      "T4",
+      "T13",
+      "T4",
+      "T12",
+      "T2",
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 154.88824081420898
+  },
+  {
+    "success": false,
+    "original_prob": 0.9999567270278931,
+    "adversarial_prob": 0.9999524354934692,
+    "prob_shift": 4.291534423828125e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-122",
+    "source": "sard",
+    "time_sec": 155.76461625099182
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998512268066406,
+    "adversarial_prob": 0.9998399019241333,
+    "prob_shift": 1.1324882507324219e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T15"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 156.790997505188
+  },
+  {
+    "success": false,
+    "original_prob": 0.9995836615562439,
+    "adversarial_prob": 0.9997888207435608,
+    "prob_shift": -0.00020515918731689453,
+    "queries_used": 501,
+    "transforms": [
+      "T1"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 155.57102489471436
+  },
+  {
+    "success": false,
+    "original_prob": 0.999961256980896,
+    "adversarial_prob": 0.9999575614929199,
+    "prob_shift": 3.6954879760742188e-06,
+    "queries_used": 501,
+    "transforms": [
+      "T13",
+      "T3",
+      "T4"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-121",
+    "source": "sard",
+    "time_sec": 156.38024163246155
+  },
+  {
+    "success": true,
+    "original_prob": 0.572524905204773,
+    "adversarial_prob": 0.03526982292532921,
+    "prob_shift": 0.5372550822794437,
+    "queries_used": 21,
+    "transforms": [
+      "T5"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-416",
+    "source": "bigvul",
+    "time_sec": 6.533011436462402
+  },
+  {
+    "success": false,
+    "original_prob": 0.9998718500137329,
+    "adversarial_prob": 0.9998549222946167,
+    "prob_shift": 1.6927719116210938e-05,
+    "queries_used": 501,
+    "transforms": [
+      "T13"
+    ],
+    "smt_verified": true,
+    "smt_status": "UNKNOWN",
+    "exploit_preserved": null,
+    "cwe": "CWE-119",
+    "source": "bigvul",
+    "time_sec": 156.56945896148682
+  }
+]

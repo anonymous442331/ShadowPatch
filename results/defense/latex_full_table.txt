@@ -1,0 +1,26 @@
+% Full cross-dataset x cross-model D5v2 table — paste into paper
+\begin{table*}[t]
+\caption{Full cross-dataset and cross-model evaluation of D5v2.
+  Each cell reports Det.\,(\%) / FP.\,(\%).
+  \textit{Italic diagonal} = within-dataset held-out split.
+  \textbf{Bold} = best detection per column among single-dataset rows.
+  SARD excluded: near-zero attack surface (LineVul ASR $\leq$1.0\%).
+  D5v2 is trained on adversarial patches from all four detectors
+  combined (model-agnostic training), evaluated per detector separately.}
+\label{tab:d5v2_full}
+\small
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lcccccccccccc}
+\toprule
+\textbf{Train $\backslash$ Test} & \multicolumn{4}{c}{\textbf{BigVul}} & \multicolumn{4}{c}{\textbf{Devign}} & \multicolumn{4}{c}{\textbf{PrimeVul}} \\
+\cmidrule(lr){2-5}\cmidrule(lr){6-9}\cmidrule(lr){10-13}
+\textbf{} & LV & RV & IV & GCB & LV & RV & IV & GCB & LV & RV & IV & GCB \\
+\midrule
+BigVul & \textit{\textbf{95.5} / 0.0} & \textit{\textbf{11.1} / 0.0} & \textit{\textbf{50.0} / 0.0} & \textit{90.0 / 0.0} & 86.7 / 1.1 & 11.8 / 2.9 & 18.5 / 3.7 & 84.3 / 1.3 & 87.5 / 0.0 & \textbf{0.0} / 0.0 & 75.0 / 0.0 & 71.2 / 0.0 \\
+Devign & 92.1 / 3.9 & 2.2 / 3.3 & 30.4 / 2.2 & 88.7 / 3.8 & \textit{86.1 / 1.3} & \textit{16.7 / 1.3} & \textit{20.0 / 1.3} & \textit{78.3 / 1.3} & 89.3 / 2.2 & \textbf{0.0} / 0.0 & 75.0 / 0.0 & \textbf{72.7} / 2.3 \\
+PrimeVul & 93.0 / 4.8 & 4.3 / 5.4 & 30.4 / 2.2 & \textbf{90.6} / 4.7 & \textbf{87.3} / 3.0 & \textbf{23.5} / 4.4 & \textbf{22.2} / 5.6 & \textbf{87.0} / 3.5 & \textit{\textbf{95.5} / 4.1} & \textit{\textbf{0.0} / 4.1} & \textit{\textbf{100.0} / 4.1} & \textit{69.2 / 4.1} \\
+\midrule
+\textbf{Combined} & 93.0 / 1.3 & 2.2 / 1.1 & 30.4 / 2.2 & 88.7 / 0.9 & 87.8 / 1.4 & 14.7 / 0.0 & 18.5 / 0.0 & 85.2 / 0.9 & 88.4 / 0.4 & 0.0 / 0.0 & 75.0 / 0.0 & 72.7 / 0.8 \\
+\bottomrule
+\end{tabular}
+\end{table*}

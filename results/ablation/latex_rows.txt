@@ -1,0 +1,8 @@
+% paste into tab:ablation in the paper
+Full \sys{}                         & \textbf{31.0} & --- \\
+w/o loop (T1-T4)                             & 33.2 & $+$2.2 \\
+w/o pointer (T5-T8)                          & 30.8 & $-$0.2 \\
+w/o control-flow (T9-T13)                    & 23.0 & $-$8.0 \\
+w/o dead-code (T14-T18)                      & 30.0 & $-$1.0 \\
+w/o genetic search (random)                  & 29.8 & $-$1.2 \\
+w/o PDG taint constraint                     & 30.4 & $-$0.6 \\

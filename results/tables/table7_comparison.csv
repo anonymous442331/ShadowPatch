@@ -1,0 +1,6 @@
+System,ASR (%),Avg Queries,Prob Shift,Method
+ShadowPatch-GA (linevul),31.3,113,—,Genetic (PDG-guided)
+ALERT,21.4,234,0.146,ALERT
+MHM,8.5,100,0.056,MHM
+Dead+Rename,0.0,2,-0.024,Dead+Rename
+Random,6.0,95,0.043,Random

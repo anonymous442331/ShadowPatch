@@ -1,0 +1,13 @@
+train_ds,test_ds,det(%),fp(%),f1(%),res_asr(%),asr_drop(pp),n_adv,n_clean
+bigvul,bigvul,95.5,0.0,97.7,1.1,22.3,22,22
+bigvul,devign,86.7,1.1,92.4,9.3,60.6,181,181
+bigvul,primevul,87.5,0.0,93.3,4.3,29.9,112,112
+devign,bigvul,92.1,4.4,93.8,1.8,21.6,114,114
+devign,devign,86.1,0.0,92.5,9.7,60.2,36,36
+devign,primevul,89.3,1.8,93.5,3.7,30.5,112,112
+primevul,bigvul,93.0,5.3,93.8,1.6,21.8,114,114
+primevul,devign,87.3,3.9,91.3,8.9,61.0,181,181
+primevul,primevul,95.5,0.0,97.7,1.6,32.6,22,22
+combined,bigvul,93.0,0.9,95.9,1.6,21.8,114,114
+combined,devign,87.8,0.6,93.3,8.5,61.4,181,181
+combined,primevul,88.4,0.0,93.8,4.0,30.2,112,112

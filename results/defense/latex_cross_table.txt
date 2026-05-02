@@ -1,0 +1,22 @@
+% Cross-dataset D5v2 evaluation — paste into paper
+\begin{table*}[t]
+\caption{Cross-dataset generalisation of D5v2. Each cell shows
+  Det.\,(\%) / FP\,(\%) / F1\,(\%) for a model trained on the row dataset
+  and tested on the column dataset. Diagonal (\textit{italic}) = within-dataset
+  held-out evaluation. Off-diagonal = cross-dataset transfer.
+  \textbf{Bold} = best per column (excluding combined-train row).}
+\label{tab:d5v2_cross}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lccc}
+\toprule
+\textbf{Train $\backslash$ Test} & \textbf{BigVul} & \textbf{Devign} & \textbf{PrimeVul} \\
+\midrule
+BigVul & \textit{\textbf{95.5} / 0.0 / 97.7} & 86.7 / 1.1 / 92.4 & 87.5 / 0.0 / 93.3 \\
+Devign & 92.1 / 4.4 / 93.8 & \textit{86.1 / 0.0 / 92.5} & 89.3 / 1.8 / 93.5 \\
+PrimeVul & 93.0 / 5.3 / 93.8 & \textbf{87.3} / 3.9 / 91.3 & \textit{\textbf{95.5} / 0.0 / 97.7} \\
+\midrule
+\textbf{Combined} & 93.0 / 0.9 / 95.9 & 87.8 / 0.6 / 93.3 & 88.4 / 0.0 / 93.8 \\
+\bottomrule
+\end{tabular}
+\end{table*}

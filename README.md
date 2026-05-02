@@ -13,10 +13,10 @@ detectors. It operates in four phases:
 
 | Phase | Component | Description |
 |---|---|---|
-| 1 | `attack/pdg_taint.py` | PDG-based taint analysis — partitions each function into taint region T and safe region S |
-| 2 | `attack/code_transformer.py` | 18 semantics-preserving structural transforms (T1–T18) applied only within S |
-| 3 | `attack/genetic_optimizer.py` | Black-box genetic search (P=20, G=50, B=500) to minimize detector score |
-| 4 | `attack/smt_verifier.py` | Z3 SMT bounded equivalence verification (30 s timeout, loop unroll=10) |
+| 1 | `ShadowPatch_Attack/pdg_taint.py` | PDG-based taint analysis — partitions each function into taint region T and safe region S |
+| 2 | `ShadowPatch_Attack/code_transformer.py` | 18 semantics-preserving structural transforms (T1–T18) applied only within S |
+| 3 | `ShadowPatch_Attack/genetic_optimizer.py` | Black-box genetic search (P=20, G=50, B=500) to minimize detector score |
+| 4 | `ShadowPatch_Attack/smt_verifier.py` | Z3 SMT bounded equivalence verification (30 s timeout, loop unroll=10) |
 
 ---
 
@@ -48,7 +48,7 @@ shadowpatch_v2/
 │                                #   merge → deduplicate → CWE filter → 70/15/15 split
 ├── models/
 │   └── vulnerability_detector.py # LineVul, ReVeal, IVDetect, GraphCodeBERT
-├── attack/
+├── ShadowPatch_Attack/
 │   ├── pdg_taint.py             # Phase 1: Joern CPG extraction + taint propagation
 │   ├── code_transformer.py      # Phase 2: T1–T18 via Clang LibTooling + GCC syntax check
 │   ├── genetic_optimizer.py     # Phase 3: tournament selection, crossover, mutation

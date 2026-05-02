@@ -152,7 +152,7 @@ def extract_features(code: str) -> np.ndarray:
         [39:52]  global features  (whole function, for calibration)
     """
     try:
-        from attack.pdg_taint import get_taint_set
+        from ShadowPatch_Attack.pdg_taint import get_taint_set
         taint_set, safe_set = get_taint_set(code, hops=2)
     except Exception:
         # fallback: treat first half as T, second half as S

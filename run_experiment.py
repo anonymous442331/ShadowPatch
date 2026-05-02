@@ -92,10 +92,10 @@ from data.dataset_loader         import (BigVulLoader, DevignLoader,
                                          load_dataset, get_attack_subset,
                                          VulnSample, TARGET_CWES)
 from models.vulnerability_detector import VulnDetector, VulnDetectorTrainer
-from attack.genetic_optimizer    import (GeneticAttacker, AttackResult,
+from ShadowPatch_Attack.genetic_optimizer    import (GeneticAttacker, AttackResult,
                                          summarise_results)
-from attack.exploit_verifier     import ExploitVerifier
-from attack.cvss_fitness         import (CVSSTable, CVSSFitnessWrapper,
+from ShadowPatch_Attack.exploit_verifier     import ExploitVerifier
+from ShadowPatch_Attack.cvss_fitness         import (CVSSTable, CVSSFitnessWrapper,
                                          cvss_imputation_report)
 from defense.defense             import (AdversarialTrainer, EnsembleDefense,
                                          RandomizedSmoothingDefense,
@@ -735,8 +735,8 @@ def run_dead_rename(samples: List[VulnSample],
     Dead+Rename baseline — applies T13 (dead branch) + T14 (rename)
     jointly in a single pass, no GA, no iteration.
     """
-    from attack.code_transformer import apply_sequence
-    from attack.pdg_taint        import get_taint_set
+    from ShadowPatch_Attack.code_transformer import apply_sequence
+    from ShadowPatch_Attack.pdg_taint        import get_taint_set
     results = []
     bar = tqdm(samples, desc="  Dead+Rename", unit="sample",
                bar_format="{l_bar}{bar}| {n_fmt}/{total_fmt} [{elapsed}<{remaining}, {rate_fmt}]")
@@ -759,8 +759,8 @@ def run_random(samples: List[VulnSample],
     Random baseline — random transform sequences with no fitness guidance.
     Uses the same transform operators as ShadowPatch but no GA.
     """
-    from attack.code_transformer import TRANSFORM_IDS, apply_sequence
-    from attack.pdg_taint        import get_taint_set
+    from ShadowPatch_Attack.code_transformer import TRANSFORM_IDS, apply_sequence
+    from ShadowPatch_Attack.pdg_taint        import get_taint_set
     tids = list(TRANSFORM_IDS)
     results = []
     bar = tqdm(samples, desc="  Random", unit="sample",

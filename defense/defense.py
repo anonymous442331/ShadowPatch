@@ -166,7 +166,7 @@ class RandomizedSmoothingDefense:
     def __init__(self, detector, n_samples: int = 25):
         self.detector  = detector
         self.n_samples = n_samples
-        from attack.code_transformer import TRANSFORM_IDS, apply_single
+        from ShadowPatch_Attack.code_transformer import TRANSFORM_IDS, apply_single
         self.transform_ids = list(TRANSFORM_IDS)
         self.apply_single  = apply_single
 

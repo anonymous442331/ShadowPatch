@@ -55,9 +55,9 @@ import seaborn as sns
 from sklearn.metrics import (accuracy_score, f1_score, precision_score,
                              recall_score, roc_auc_score)
 
-from attack.genetic_optimizer  import AttackResult, GeneticAttacker, summarise_results
-from attack.code_transformer   import TRANSFORM_IDS, apply_sequence
-from attack.pdg_taint          import get_taint_set
+from ShadowPatch_Attack.genetic_optimizer  import AttackResult, GeneticAttacker, summarise_results
+from ShadowPatch_Attack.code_transformer   import TRANSFORM_IDS, apply_sequence
+from ShadowPatch_Attack.pdg_taint          import get_taint_set
 
 logger = logging.getLogger(__name__)
 

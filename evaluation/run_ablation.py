@@ -50,9 +50,9 @@ OUT_DIR  = MOTHER / "results/ablation"
 sys.path.insert(0, str(MOTHER))
 
 try:
-    from attack.code_transformer import TRANSFORM_IDS, apply_sequence
-    from attack.pdg_taint        import get_taint_set
-    from attack.genetic_optimizer import AttackResult, Individual
+    from ShadowPatch_Attack.code_transformer import TRANSFORM_IDS, apply_sequence
+    fromShadowPatch_Attack.pdg_taint        import get_taint_set
+    from ShadowPatch_Attack.genetic_optimizer import AttackResult, Individual
 except ImportError as e:
     logger.error("Cannot import ShadowPatch attack modules: %s", e)
     logger.error("Is MOTHER path correct? Is conda env cvmn active?")
